@@ -36,6 +36,12 @@ jobs:
           http_url: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
           downloaded_filename: ./data/jhu-csse/time_series_covid19_confirmed_global.csv
           postprocess: ./postprocess/jhu-csse.ts
+
+      - name: Fetch MOH vaccine data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/vaccine-data/latest/doses_by_date.csv
+          downloaded_filename: ./data/moh/doses_by_date.csv
       - name: Fetch MOH current cases data page
         uses: githubocto/flat@v3
         with:
