@@ -1,9 +1,13 @@
-/* This postprocessing script names the file based on the following string contained in the HTML.
+/* This postprocessing script names the file based on the a string like the following in the HTML.
+
   "All data on this page relates to cases recorded prior to 11:59 pm 17 February 2022."
+  
   The above example will become "2022-02-17.html" 
 */
-import dayjs from 'https://cdn.skypack.dev/dayjs';
 import { dirname } from 'https://deno.land/std@0.126.0/path/mod.ts';
+import dayjs from 'https://cdn.skypack.dev/dayjs';
+import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
+dayjs.extend(customParseFormat);
 
 const inputFile = Deno.args[0];
 const html = Deno.readTextFileSync(inputFile);
@@ -28,17 +32,19 @@ if (inputFile.endsWith('covid-19-current-cases.html')) {
 }
 
 const match = dateRegex.exec(html);
-
 if (!match?.groups?.date) {
   throw 'Unable to work out what date the data relates to: ' + inputFile;
-  // TODO: Save to a fail directory
 }
 
 const dateString = match.groups.date;
-const date = dayjs(dateString).format('YYYY-MM-DD');
+const date = dayjs(dateString, ['HH:mm a D MMMM YYYY', 'HH:mma D MMMM YYYY']);
+
+if (!date.isValid()) {
+  throw 'Invalid date: ' + dateString;
+}
 
 const outputDir = dirname(inputFile);
-const outputFile = `./${outputDir}/${date}.html`;
+const outputFileName = `${date.format('YYYY-MM-DD')}.html`;
 
-Deno.writeTextFileSync(outputFile, html);
+Deno.writeTextFileSync(`./${outputDir}/${outputFileName}`, html);
 Deno.remove(inputFile);
