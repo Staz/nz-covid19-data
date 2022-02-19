@@ -6,3 +6,4 @@ Some gotchas I found when playing with [Github flat data](https://github.com/mar
 
 * Any paths in the postprocessing scripts must be relative to the repository root.
 
+* Can't specify an alternative authorization header (something other than `Authorization:`) **and** use secrets.
