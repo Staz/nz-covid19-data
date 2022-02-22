@@ -11,6 +11,12 @@ dayjs.extend(customParseFormat);
 
 const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH:mm';
 
+const POSSIBLE_DATE_FORMATS = [
+  'h:mm a D MMMM YYYY',
+  'h:mma D MMMM YYYY',
+  'h:mma [on] D MMMM YYYY',
+];
+
 const inputFile = Deno.args[0];
 const html = Deno.readTextFileSync(inputFile);
 let dateRegex: RegExp;
@@ -39,7 +45,7 @@ if (!match?.groups?.date) {
 }
 
 const dateString = match.groups.date;
-const date = dayjs(dateString, ['HH:mm a D MMMM YYYY', 'HH:mma D MMMM YYYY']);
+const date = dayjs(dateString, POSSIBLE_DATE_FORMATS, true);
 
 if (!date.isValid()) {
   throw 'Invalid date: ' + dateString;
