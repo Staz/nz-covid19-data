@@ -46,3 +46,4 @@ Snapshot of Ministry of Health COVID-19 stats pages
 ### Wishlist
 
 - Complete snapshots (HTML) for Ministry of Health stats pages. Send me a message if you can help out with this!
+- Let me know what else you'd like to see here!
