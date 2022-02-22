@@ -1,0 +1,26 @@
+{
+  "name": "nz-covid19-data",
+  "version": "1.0.0",
+  "description": "NZ COVID-19 data repository",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Staz/nz-covid19-data.git"
+  },
+  "keywords": [
+    "covid-19",
+    "nz"
+  ],
+  "author": "Ben Stasiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Staz/nz-covid19-data/issues"
+  },
+  "homepage": "https://github.com/Staz/nz-covid19-data#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  }
+}
