@@ -9,6 +9,8 @@ import dayjs from 'https://cdn.skypack.dev/dayjs';
 import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
 dayjs.extend(customParseFormat);
 
+const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH:mm';
+
 const inputFile = Deno.args[0];
 const html = Deno.readTextFileSync(inputFile);
 let dateRegex: RegExp;
@@ -44,7 +46,7 @@ if (!date.isValid()) {
 }
 
 const outputDir = dirname(inputFile);
-const outputFileName = `${date.format('YYYY-MM-DD')}.html`;
+const outputFileName = `${date.format(OUTPUT_FILE_DATE_FORMAT)}.html`;
 
 Deno.writeTextFileSync(`./${outputDir}/${outputFileName}`, html);
 Deno.remove(inputFile);
