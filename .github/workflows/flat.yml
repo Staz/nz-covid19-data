@@ -23,11 +23,32 @@ jobs:
           STATSNZ_API_KEY: ${{ secrets.STATSNZ_API_KEY }}
         run: |
           echo "{ \"headers\": {  \"Ocp-Apim-Subscription-Key\": \"$STATSNZ_API_KEY\" } }" > $RUNNER_TEMP/statsnz_axios_config.json
-      - name: Fetch StatsNZ data
+      - name: Fetch StatsNZ number of cases
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://api.stats.govt.nz/opendata/v1/Covid-19Indicators/Observations?$filter=ResourceID%20eq%20'CPCOV2'&$select=Period,Label1,Value&$orderby=Period,Label1
+          downloaded_filename: ./data/statsnz/number_of_cases.json
+          postprocess: ./postprocess/statsnz.ts
+          axios_config: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
+      - name: Fetch StatsNZ tests per day
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://api.stats.govt.nz/opendata/v1/Covid-19Indicators/Observations?$filter=ResourceID%20eq%20'CPCOV1'&$select=Period,Value&$orderby=Period
+          downloaded_filename: ./data/statsnz/tests_per_day.json
+          postprocess: ./postprocess/statsnz.ts
+          axios_config: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
+      - name: Fetch StatsNZ weekly deaths by age and sex
         uses: githubocto/flat@v3
         with:
           http_url: https://api.stats.govt.nz/opendata/v1/Covid-19Indicators/Observations?$filter=ResourceID%20eq%20'CPWEE2'%20&$select=Period,Label1,Value&$orderby=Period,Label1
-          downloaded_filename: ./data/statsnz/weekly_deaths.json
+          downloaded_filename: ./data/statsnz/weekly_deaths_by_age_and_sex.json
+          postprocess: ./postprocess/statsnz.ts
+          axios_config: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
+      - name: Fetch StatsNZ weekly deaths by region
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://api.stats.govt.nz/opendata/v1/Covid-19Indicators/Observations?$filter=ResourceID%20eq%20'CPWEE3'&$select=Period,Geo,Value&$orderby=Period,Geo
+          downloaded_filename: ./data/statsnz/weekly_deaths_by_region.json
           postprocess: ./postprocess/statsnz.ts
           axios_config: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
       - name: Fetch OWID data
