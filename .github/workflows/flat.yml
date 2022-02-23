@@ -11,8 +11,6 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
-    env:
-      STATSNZ_API_AXIOS_CONFIG_FILE: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
     steps:
       - name: Setup deno
         uses: denoland/setup-deno@main
@@ -22,8 +20,7 @@ jobs:
         uses: actions/checkout@v2
       - name: 'Create StatsNZ axios config'
         run: |
-          echo "$STATSNZ_API_AXIOS_CONFIG_FILE"
-          echo "TEST $TEST_SECRET"
+          echo "{ \"headers\": {  \"Ocp-Apim-Subscription-Key\": \"${{secrets.TEST_SECRET"}}\" }"
       - name: Fetch OWID data
         uses: githubocto/flat@v3
         with:
