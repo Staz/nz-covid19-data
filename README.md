@@ -16,8 +16,9 @@ Some gotchas I found when playing with [Github flat data](https://github.com/mar
 
 ### Current data updated daily
 
-COVID-19 data from [Stats NZ open data API](https://www.stats.govt.nz/experimental/covid-19-data-portal)
+Stats NZ
 
+- [estimated_resident_population_by_age_and_sex.csv](/data/statsnz/estimated_resident_population_by_age_and_sex.csv)
 - [number_of_cases.json](/data/statsnz/number_of_cases.json)
 - [tests_per_day.json](/data/statsnz/tests_per_day.json)
 - [weekly_deaths_by_age_and_sex.json](/data/statsnz/weekly_deaths_by_age_and_sex.json)
@@ -41,8 +42,6 @@ NZ data from the [Our World in Data COVID-19 Dataset](https://github.com/owid/co
 - [owid-covid-data-nz.csv](/data/owid/owid-covid-data-nz.csv)
 
 ### Coming Soon
-
-- Stats NZ population estimates
 
 - NZ data from the [Human Mortality Database](https://www.mortality.org/)
 
