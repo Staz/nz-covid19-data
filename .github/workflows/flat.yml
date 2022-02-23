@@ -12,7 +12,7 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     env:
-      STATSNZ_API_AXIOS_CONFIG_FILE: ${{ format('{0}/{1}', env.RUNNER_TEMP, 'statsnz_axios_config.json') }}
+      STATSNZ_API_AXIOS_CONFIG_FILE: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
     steps:
       - name: Setup deno
         uses: denoland/setup-deno@main
