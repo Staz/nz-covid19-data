@@ -29,7 +29,7 @@ jobs:
           http_url: https://api.stats.govt.nz/opendata/v1/Covid-19Indicators/Observations?$filter=ResourceID%20eq%20'CPWEE2'%20and%20Label1%20eq%20'Total'&$select=Period,Label1,Value&$orderby=Period,Label1
           downloaded_filename: ./data/statsnz/weekly_deaths.json
           postprocess: ./postprocess/statsnz.ts
-          axios_config: ${{ format({0}/{1}, runner.temp, 'statsnz_axios_config.json') }}
+          axios_config: ${{ format('{0}/{1}', runner.temp, 'statsnz_axios_config.json') }}
       - name: Fetch OWID data
         uses: githubocto/flat@v3
         with:
