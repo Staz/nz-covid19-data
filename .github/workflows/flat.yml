@@ -19,6 +19,8 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
       - name: 'Create StatsNZ axios config'
+        env:
+          TEST_SECRET: ${{ secrets.TEST_SECRET }}
         run: |
           echo "$RUNNER_TEMP"
           echo "TEST $TEST_SECRET"
