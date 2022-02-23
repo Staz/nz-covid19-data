@@ -11,6 +11,8 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    env:
+      STATSNZ_API_AXIOS_CONFIG_FILE: ${{ format('{0}/{1}', env.RUNNER_TEMP, 'statsnz_axios_config.json') }}
     steps:
       - name: Setup deno
         uses: denoland/setup-deno@main
@@ -19,10 +21,8 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
       - name: 'Create StatsNZ axios config'
-        env:
-          TEST_SECRET: ${{ secrets.TEST_SECRET }}
         run: |
-          echo "$RUNNER_TEMP"
+          echo "$STATSNZ_API_AXIOS_CONFIG_FILE"
           echo "TEST $TEST_SECRET"
       - name: Fetch OWID data
         uses: githubocto/flat@v3
