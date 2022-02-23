@@ -18,6 +18,10 @@ jobs:
           deno-version: v1.10.x
       - name: Check out repo
         uses: actions/checkout@v2
+      - name: 'Create StatsNZ axios config'
+        run: |
+          echo "$RUNNER_TEMP"
+          echo "TEST $TEST_SECRET"
       - name: Fetch OWID data
         uses: githubocto/flat@v3
         with:
@@ -36,7 +40,6 @@ jobs:
           http_url: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
           downloaded_filename: ./data/jhu-csse/time_series_covid19_confirmed_global.csv
           postprocess: ./postprocess/jhu-csse.ts
-
       - name: Fetch MOH vaccine data
         uses: githubocto/flat@v3
         with:
