@@ -32,7 +32,7 @@ const downloadFile = async (url: string, destinationPath: string) => {
 
 //system/files/documents/pages/covid_vaccinations_22_02_2022.xlsx
 const VACCINATION_DATA_URL_REGEX =
-  /system\/files\/documents\/pages\/covid_vaccinations_.+\.xlsx/;
+  /system\/files\/documents\/pages\/covid_vaccinations_.+\.xlsx/; // relative url
 
 const VACCINATION_DATA_OUTPUT_FILE_PATH = './moh/covid_vacciations.xlsx';
 
@@ -69,7 +69,7 @@ if (inputFile.endsWith('covid-19-current-cases.html')) {
   const match = VACCINATION_DATA_URL_REGEX.exec(html);
 
   if (match) {
-    const url = MOH_BASE_URL + match[0];
+    const url = `${MOH_BASE_URL}/${match[0]}`;
     await downloadFile(url, VACCINATION_DATA_OUTPUT_FILE_PATH);
   } else {
     throw new Error('Link to vaccinations xlsx not found in page');
