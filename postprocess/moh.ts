@@ -5,9 +5,38 @@
   The above example will become "2022-02-17.html" 
 */
 import { dirname } from 'https://deno.land/std@0.126.0/path/mod.ts';
+import { writableStreamFromWriter } from 'https://deno.land/std@0.126.0/streams/mod.ts';
 import dayjs from 'https://cdn.skypack.dev/dayjs';
 import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
 dayjs.extend(customParseFormat);
+
+const downloadFile = async (url: string, destinationPath: string) => {
+  const response = await fetch(url);
+
+  if (response.status !== 200) {
+    console.error(`Response status was ${response.status} for ${url}`);
+    return;
+  }
+
+  if (response.body) {
+    const file = await Deno.open(destinationPath, {
+      write: true,
+      create: true,
+    });
+
+    const writableStream = writableStreamFromWriter(file);
+    await response.body.pipeTo(writableStream);
+    Deno.close(file.rid);
+  }
+};
+
+//system/files/documents/pages/covid_vaccinations_22_02_2022.xlsx
+const VACCINATION_DATA_URL_REGEX =
+  /system\/files\/documents\/pages\/covid_vaccinations_.+\.xlsx/;
+
+const VACCINATION_DATA_OUTPUT_FILE_PATH = './moh/covid_vacciations.xlsx';
+
+const MOH_BASE_URL = 'https://www.health.govt.nz';
 
 const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH:mm';
 
@@ -35,6 +64,16 @@ if (inputFile.endsWith('covid-19-current-cases.html')) {
     /All data on this page relates to tests processed prior to (?<date>.+)\./;
 } else if (inputFile.endsWith('covid-19-vaccine-data.html')) {
   dateRegex = /Data in this section is as at (?<date>.+) and is updated daily/;
+
+  /* Download latest vaccination data spreadsheet */
+  const match = VACCINATION_DATA_URL_REGEX.exec(html);
+
+  if (match) {
+    const url = MOH_BASE_URL + match[0];
+    await downloadFile(url, VACCINATION_DATA_OUTPUT_FILE_PATH);
+  } else {
+    throw new Error('Link to vaccinations xlsx not found in page');
+  }
 } else {
   throw 'Unrecognised file: ' + inputFile;
 }
