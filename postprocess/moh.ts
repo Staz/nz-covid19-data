@@ -34,7 +34,7 @@ const downloadFile = async (url: string, destinationPath: string) => {
 const VACCINATION_DATA_URL_REGEX =
   /system\/files\/documents\/pages\/covid_vaccinations_.+\.xlsx/; // relative url
 
-const VACCINATION_DATA_OUTPUT_FILE_PATH = './data/moh/covid_vacciations.xlsx';
+const VACCINATION_DATA_OUTPUT_FILE_PATH = './data/moh/covid_vaccinations.xlsx';
 
 const MOH_BASE_URL = 'https://www.health.govt.nz';
 
