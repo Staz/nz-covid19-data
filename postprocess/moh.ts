@@ -26,7 +26,6 @@ const downloadFile = async (url: string, destinationPath: string) => {
 
     const writableStream = writableStreamFromWriter(file);
     await response.body.pipeTo(writableStream);
-    Deno.close(file.rid);
   }
 };
 
