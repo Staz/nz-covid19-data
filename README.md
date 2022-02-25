@@ -12,8 +12,8 @@ Stats NZ
 - [weekly_deaths_by_age_and_sex.json](/data/statsnz/weekly_deaths_by_age_and_sex.json)
 - [weekly_deaths_by_region.json](/data/statsnz/weekly_deaths_by_region.json)
 
-HTML Snapshots of [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics) as well as JSON files resulting from scraping the tables.
-
+HTML Snapshots of [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics) as well as JSON files resulting from scraping the tables. The files are named according to the date of the data on the page and **not** the date the page itself was updated. 
+ 
 - [COVID-19: Current cases](/moh/covid-19-current-cases)
 - [COVID-19: Case demographics](/moh/covid-19-case-demographics)
 - [COVID-19: Source of cases](covid-19-source-cases)
