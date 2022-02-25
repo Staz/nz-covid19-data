@@ -1,7 +1,7 @@
 import { dirname } from 'https://deno.land/std@0.126.0/path/mod.ts';
 import { writableStreamFromWriter } from 'https://deno.land/std@0.126.0/streams/mod.ts';
 import { getDataDateFromMohPage } from '../scripts/moh/common.ts';
-import { scrapeTablesFromHtml } from '../scripts/moh/mohpagetojson.ts';
+import { scrapeTablesFromHtml } from '../scripts/moh/common.ts';
 
 const downloadFile = async (url: string, destinationPath: string) => {
   const response = await fetch(url);
@@ -54,5 +54,4 @@ const outputHtmlFilePath = `./${dirname(inputFile)}/${date}.html`;
 Deno.writeTextFileSync(outputHtmlFilePath, html);
 
 scrapeTablesFromHtml(outputHtmlFilePath);
-
 Deno.remove(inputFile);
