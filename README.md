@@ -8,12 +8,6 @@ Some gotchas I found when playing with [Github flat data](https://github.com/mar
 
 - Can't specify an alternative authorization header (something other than `Authorization:`) **and** use secrets.
 
-### Other Scripts
-
-`scripts/waybackmachine/getmohpagesnapshots.sh` downloads the wayback machine archive for the [Ministry of Health COVID-19: Data and statistics webpages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics)
-
-`scripts/waybackmachine/processmohpagesnapshots.ts` renames each snaphot according to the date of the data contained within the page: `YYYY-MM-DDTHH:mm.html` (ISO 8601)
-
 ### Current data updated daily
 
 Stats NZ
@@ -24,7 +18,7 @@ Stats NZ
 - [weekly_deaths_by_age_and_sex.json](/data/statsnz/weekly_deaths_by_age_and_sex.json)
 - [weekly_deaths_by_region.json](/data/statsnz/weekly_deaths_by_region.json)
 
-Snapshot of [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics)
+HTML Snapshots of [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics) as well as JSON files resulting from scraping the tables.
 
 - [COVID-19: Current cases](/moh/covid-19-current-cases)
 - [COVID-19: Case demographics](/moh/covid-19-case-demographics)
@@ -40,6 +34,15 @@ NZ data from [COVID-19 Data Repository by the Center for Systems Science and Eng
 NZ data from the [Our World in Data COVID-19 Dataset](https://github.com/owid/covidP19-data)
 
 - [owid-covid-data-nz.csv](/data/owid/owid-covid-data-nz.csv)
+
+
+### Scripts
+
+`scripts/moh/mohpagetojson.ts` scrapes the tables in the supplied MOH stats page and outputs a JSON document keyed by table name. 
+
+`scripts/waybackmachine/getmohpagesnapshots.sh` downloads the wayback machine archive for the [Ministry of Health COVID-19: Data and statistics webpages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics)
+
+`scripts/waybackmachine/processmohpagesnapshots.ts` renames each snaphot according to the date of the data contained within the page: `YYYY-MM-DDTHH:mm.html` (ISO 8601)
 
 ### Coming Soon
 
