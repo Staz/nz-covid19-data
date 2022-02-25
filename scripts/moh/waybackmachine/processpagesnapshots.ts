@@ -1,23 +1,14 @@
 import { join } from 'path';
 import { readdirSync, readFileSync, writeFileSync } from 'fs';
+import {
+  POSSIBLE_DATE_BLURB_REGEXES,
+  POSSIBLE_DATE_FORMATS,
+} from '../constants.ts';
+import { cleanHtml } from '../../utils.ts';
 
 const dayjs = require('dayjs');
 const customParseFormat = require('dayjs/plugin/customParseFormat');
 dayjs.extend(customParseFormat);
-
-const POSSIBLE_DATE_BLURB_REGEXES = [
-  /All data on this page relates to cases recorded prior to (?<date>.+?)\./,
-  /All information on this page is as at (?<date>.+?) unless otherwise stated/,
-  /All data on this page is as at (?<date>.+?) unless otherwise stated/,
-  /Data in this section is as at (?<date>.+?) and/, // covid-19-vaccine-data
-  /All data on this page relates to tests processed prior to (?<date>.+?)/, // testing-covid-19
-];
-
-const POSSIBLE_DATE_FORMATS = [
-  'h:mm a D MMMM YYYY',
-  'h:mma D MMMM YYYY',
-  'h:mma [on] D MMMM YYYY',
-];
 
 const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH[:]mm';
 
@@ -38,11 +29,6 @@ const getDataDate = (input: string): string | null => {
   }
 
   return null;
-};
-
-const cleanHtml = (inputHtml: string) => {
-  // Sigh, some MOH pages are riddled with these leading my regex to break
-  return inputHtml.replace(/&nbsp;/g, ' ');
 };
 
 const processWaybackFile = (path: string) => {

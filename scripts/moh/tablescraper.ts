@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import cheerio from 'https://esm.sh/cheerio';
 
 enum TableStructure {
   RowAndColumnHeaders,
@@ -7,7 +7,7 @@ enum TableStructure {
 }
 
 const cleanValue = (str: string) => {
-  let cleanedValue = str.replace(/[\*,]/g, '').trim();
+  const cleanedValue = str.replace(/[\*,]/g, '').trim();
   const maybeNumber = Number(cleanedValue);
   return Number.isNaN(maybeNumber) ? cleanedValue : maybeNumber;
 };
@@ -53,7 +53,7 @@ const scrapeTableWithRowHeaders = (tableHtml: string) => {
   const $ = cheerio.load(tableHtml);
   const table = $('table');
 
-  let result = {};
+  const result: { [key: string]: any } = {};
 
   let spanRow = 0;
   let key = '';
@@ -105,7 +105,7 @@ const scrapeTableWithColumnAndRowHeaders = (tableHtml: string) => {
     .map((_, el) => $(el).text())
     .toArray();
 
-  let result = {};
+  const result: { [key: string]: any } = {};
 
   table.find('tbody tr').each((_, tr) => {
     let key = '';
@@ -134,10 +134,10 @@ const scrapeTableWithColumnHeaders = (tableHtml: string) => {
     .map((_, el) => $(el).text())
     .toArray();
 
-  let rows = [];
+  const rows: Array<Record<string, string | number>> = [];
 
   table.find('tbody tr').each((_, tr) => {
-    const row = {};
+    const row: Record<string, string | number> = {};
     $(tr)
       .children()
       .each((i, el) => {
