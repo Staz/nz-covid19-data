@@ -13,11 +13,11 @@ Stats NZ
 
 HTML Snapshots of [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics) as well as JSON files resulting from scraping the tables. The files are named according to the date of the data on the page and **not** the date the page itself was updated. 
  
-- [COVID-19: Current cases](/moh/covid-19-current-cases)
-- [COVID-19: Case demographics](/moh/covid-19-case-demographics)
-- [COVID-19: Source of cases](covid-19-source-cases)
-- [Testing for COVID-19](testing-covid-19)
-- [COVID-19: Vaccine data](covid-19-vaccine-data)
+- [COVID-19: Current cases](/data/moh/covid-19-current-cases)
+- [COVID-19: Case demographics](/data/moh/covid-19-case-demographics)
+- [COVID-19: Source of cases](/data/moh/covid-19-source-cases)
+- [Testing for COVID-19](/data/moh/testing-covid-19)
+- [COVID-19: Vaccine data](/data/moh/covid-19-vaccine-data)
 
 NZ data from [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 
