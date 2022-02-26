@@ -1,0 +1,55 @@
+name: Get MOH data
+on:
+  schedule:
+    # MOH pages are updated at about 1pm each day so schedule at 2pm NZDT = 1am UTC
+    - cron: 0 1 * * *
+  workflow_dispatch: {}
+  push:
+    paths:
+      - .github/workflows/moh.yml
+      - ./postprocess/moh.ts
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Fetch MOH current cases data page
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-current-cases
+          downloaded_filename: ./data/moh/covid-19-current-cases/covid-19-current-cases.html
+          postprocess: ./postprocess/moh.ts
+      - name: Fetch MOH case demographics data page
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-case-demographics
+          downloaded_filename: ./data/moh/covid-19-case-demographics/covid-19-case-demographics.html
+          postprocess: ./postprocess/moh.ts
+      - name: Fetch MOH source of cases data page
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-source-cases
+          downloaded_filename: ./data/moh/covid-19-source-cases/covid-19-source-cases.html
+          postprocess: ./postprocess/moh.ts
+      - name: Fetch MOH testing data page
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/testing-covid-19
+          downloaded_filename: ./data/moh/testing-covid-19/testing-covid-19.html
+          postprocess: ./postprocess/moh.ts
+      - name: Fetch MOH vaccine data page
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-vaccine-data
+          downloaded_filename: ./data/moh/covid-19-vaccine-data/covid-19-vaccine-data.html
+          postprocess: ./postprocess/moh.ts
+      - name: Fetch MOH vaccine data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/vaccine-data/latest/doses_by_date.csv
+          downloaded_filename: ./data/moh/doses_by_date.csv
