@@ -52,5 +52,6 @@ Stats NZ
 
 ### Wishlist
 
-- Complete snapshots (HTML) for Ministry of Health stats pages. Send me a message if you can help out with this!
+- Ideally time series data from the MoH, but I understand they're very busy!
+- Failing that, complete snapshots (HTML) for MoH stats pages. Send me a message if you can help out with this!
 - Let me know what else you'd like to see here!
