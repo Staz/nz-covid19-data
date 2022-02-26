@@ -8,8 +8,8 @@ Stats NZ
 
 - [number_of_cases.json](/data/statsnz/number_of_cases.json)
 - [tests_per_day.json](/data/statsnz/tests_per_day.json)
-- [weekly_deaths_by_age_and_sex.json](/data/statsnz/weekly_deaths_by_age_and_sex.json)
-- [weekly_deaths_by_region.json](/data/statsnz/weekly_deaths_by_region.json)
+- [weekly_deaths_by_age_and_sex.json](/data/statsnz/weekly_deaths_by_age_and_sex.json) (all deaths, not just COVID-19!)
+- [weekly_deaths_by_region.json](/data/statsnz/weekly_deaths_by_region.json) (all deaths, not just from COVID-19!)
 
 HTML Snapshots of [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics) as well as JSON files resulting from scraping the tables. The files are named according to the date of the data on the page and **not** the date the page itself was updated. 
  
