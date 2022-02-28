@@ -1,4 +1,4 @@
-# This workflow will be run upon completion of any of the data fetching scripts and
+# This workflow will be run upon successful completion of any of the data fetching scripts and
 # will send dispatch to the nz-covid19-dashboard repo to get it to update its submodule
 name: Update Dashboard
 on:
@@ -9,6 +9,7 @@ on:
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v1
