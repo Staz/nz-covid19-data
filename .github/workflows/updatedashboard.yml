@@ -1,0 +1,18 @@
+# This workflow will be run upon completion of any of the data fetching scripts and
+# will send dispatch to the nz-covid19-dashboard repo to get it to update its submodule
+name: Update Dashboard
+on:
+  workflow_run:
+    workflows:
+      [Get JHU CSSE data, Get MOH data, Get StatsNZ data, Get OWID data]
+    types: [completed]
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          repository: Staz/nz-covid19-dashboard
+          token: ${{ secrets.REPO_ACCESS_TOKEN }}
+          event-type: my-event
