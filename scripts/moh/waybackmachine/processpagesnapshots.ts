@@ -1,45 +1,22 @@
-import { join } from 'path';
-import { readdirSync, readFileSync, writeFileSync } from 'fs';
-import {
-  POSSIBLE_DATE_BLURB_REGEXES,
-  POSSIBLE_DATE_FORMATS,
-} from '../constants.ts';
-import { cleanHtml } from '../../utils.ts';
+import { join } from 'https://deno.land/std@0.127.0/path/mod.ts';
 
-const dayjs = require('dayjs');
-const customParseFormat = require('dayjs/plugin/customParseFormat');
-dayjs.extend(customParseFormat);
+import { getDataDateFromMohPage } from '../common.ts';
+import { cleanHtml, exists } from '../../utils.ts';
 
 const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH[:]mm';
 
-const getDataDate = (input: string): string | null => {
-  for (let regex of POSSIBLE_DATE_BLURB_REGEXES) {
-    const match = regex.exec(input);
-
-    if (match && match.groups.date) {
-      const dateString = match.groups.date;
-      const date = dayjs(dateString, POSSIBLE_DATE_FORMATS, true);
-
-      if (!date.isValid()) {
-        throw new Error('Failed to parse date: ' + dateString);
-      }
-
-      return date.format(OUTPUT_FILE_DATE_FORMAT);
-    }
-  }
-
-  return null;
-};
-
-const processWaybackFile = (path: string) => {
-  const htmlString = cleanHtml(readFileSync(path, { encoding: 'utf-8' }));
+const processWaybackFile = (path: string, outputDir: string) => {
+  const htmlString = cleanHtml(Deno.readTextFileSync(path));
 
   if (!htmlString) {
     console.warn('Skipping empty file: ' + path);
     return;
   }
 
-  const dateString = getDataDate(htmlString);
+  const dateString = getDataDateFromMohPage(
+    htmlString,
+    OUTPUT_FILE_DATE_FORMAT
+  );
 
   if (!dateString) {
     throw new Error(
@@ -48,20 +25,26 @@ const processWaybackFile = (path: string) => {
   }
 
   const outputFileName = `${dateString}.html`;
-  writeFileSync(join(inputDir, outputFileName), htmlString);
+  Deno.writeTextFileSync(join(outputDir, outputFileName), htmlString);
 };
 
-const processWaybackDirectory = (path: string) => {
-  const contents = readdirSync(path, { withFileTypes: true });
+const processWaybackDirectory = (path: string, outputDir: string) => {
+  const contents = Deno.readDirSync(path);
 
-  for (let item of contents) {
-    if (item.isDirectory()) {
-      processWaybackDirectory(join(path, item.name));
-    } else {
-      processWaybackFile(join(path, item.name));
+  for (const item of contents) {
+    if (item.isDirectory) {
+      processWaybackDirectory(join(path, item.name), outputDir);
+    } else if (item.name.endsWith('.html')) {
+      processWaybackFile(join(path, item.name), outputDir);
     }
   }
 };
 
-const inputDir = process.argv[2];
-processWaybackDirectory(inputDir);
+const inputDir = Deno.args[0];
+const outputDir = Deno.args[1] ?? join(inputDir, 'processed');
+
+if (!exists(outputDir)) {
+  Deno.mkdirSync(outputDir);
+}
+
+processWaybackDirectory(inputDir, outputDir);

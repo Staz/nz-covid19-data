@@ -18,7 +18,7 @@ if (Deno.args.length < 1) {
 
 const inputPath = Deno.args[0];
 
-if (!(await exists(inputPath))) {
+if (!exists(inputPath)) {
   console.error('Input file/directory does not exist');
   Deno.exit(1);
 }
