@@ -16,4 +16,4 @@ jobs:
         with:
           repository: Staz/nz-covid19-dashboard
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          event-type: my-event
+          event-type: update-data
