@@ -1,6 +1,8 @@
 import cheerio from 'https://esm.sh/cheerio';
 import dayjs from 'https://cdn.skypack.dev/dayjs';
 import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
+//import { orderBy } from 'https://deno.land/x/lodash@4.17.19/lodash.js';
+
 dayjs.extend(customParseFormat);
 
 import {
@@ -8,6 +10,17 @@ import {
   POSSIBLE_DATE_FORMATS,
 } from './constants.ts';
 import { scrapeTable } from './tablescraper.ts';
+
+export const getJsonFilesInDir = async (path: string) => {
+  const jsons = [];
+  for await (const file of Deno.readDir(path)) {
+    if (file.name.endsWith('.json')) {
+      jsons.push(file.name);
+    }
+  }
+
+  return jsons.sort();
+};
 
 export const getDataDateFromMohPage = (
   input: string,
@@ -45,6 +58,10 @@ const shouldSkipTable = (tableName: string) => {
   return SKIP_TABLES.some(skipName => tableName.startsWith(skipName));
 };
 
+const cleanCaption = (caption: string) => {
+  return caption.trim().replace(/\s{2,}/g, ' ');
+};
+
 export const scrapeTablesFromHtml = (path: string) => {
   const htmlString = Deno.readTextFileSync(path);
   const $ = cheerio.load(htmlString);
@@ -58,7 +75,7 @@ export const scrapeTablesFromHtml = (path: string) => {
     const caption = $(table).find('caption');
 
     if (caption.length) {
-      tableName = caption.text().trim();
+      tableName = cleanCaption(caption.text());
       if (shouldSkipTable(tableName)) {
         return;
       }
@@ -70,7 +87,7 @@ export const scrapeTablesFromHtml = (path: string) => {
         .first();
 
       if (previous.length) {
-        tableName = previous.text().trim();
+        tableName = cleanCaption(previous.text());
         if (shouldSkipTable(tableName)) {
           return;
         }
