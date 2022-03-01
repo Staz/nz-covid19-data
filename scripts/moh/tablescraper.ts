@@ -13,7 +13,11 @@ const cleanValue = (str: string) => {
 };
 
 const cleanHeading = (str: string) => {
-  return str.replace(/\*/g, '').trim();
+  return str
+    .trim()
+    .replace(/\s{2,}/g, ' ')
+    .replace(/\*/g, '')
+    .trim();
 };
 
 const getTableStructure = (tableHtml: string) => {
