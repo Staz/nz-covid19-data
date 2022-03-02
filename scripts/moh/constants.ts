@@ -10,6 +10,7 @@ export const POSSIBLE_DATE_FORMATS = [
   'h:mm a D MMMM YYYY', // needed?
   'h:mm a DD MMMM YYYY',
   'h:mma D MMMM YYYY',
+  'h:mma DD MMMM YYYY',
   'h:mm a [on] DD MMMM YYYY',
 ];
 
