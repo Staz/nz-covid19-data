@@ -4,3 +4,5 @@
  * upgrading to a new version of this remote dependency is much simpler as this can be done just
  * within deps.ts.
  */
+
+export { default as cheerio } from 'https://esm.sh/cheerio@1.0.0-rc.10';

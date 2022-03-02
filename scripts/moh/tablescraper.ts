@@ -1,4 +1,4 @@
-import cheerio from 'https://esm.sh/cheerio';
+import { cheerio } from '../deps.ts';
 
 enum TableStructure {
   RowAndColumnHeaders,

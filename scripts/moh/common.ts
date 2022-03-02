@@ -1,7 +1,6 @@
-import cheerio from 'https://esm.sh/cheerio';
+import { cheerio } from '../deps.ts';
 import dayjs from 'https://cdn.skypack.dev/dayjs';
 import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
-//import { orderBy } from 'https://deno.land/x/lodash@4.17.19/lodash.js';
 
 dayjs.extend(customParseFormat);
 
