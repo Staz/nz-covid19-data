@@ -39,12 +39,14 @@ const getDataLine = <T extends DataRow>(headings: string[], row: T) => {
   return headings.map(heading => createCSVField(row[heading])).join(',') + '\n';
 };
 
-export const getCSVString = <T extends DataRow>(rows: Array<T>) => {
-  const NULL_VALUE = null;
-
-  if (!rows?.length) {
-    return '';
+export const checkInput = <T>(rows: Array<T>) => {
+  if (!rows.length) {
+    throw new Error('No rows to write to CSV');
   }
+};
+
+export const getCSVString = <T extends DataRow>(rows: Array<T>) => {
+  checkInput(rows);
 
   let csvString = '';
 
