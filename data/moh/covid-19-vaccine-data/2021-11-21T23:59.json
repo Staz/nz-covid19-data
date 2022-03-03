@@ -1,0 +1,732 @@
+{
+  "Total Vaccinations": {
+    "First dose": {
+      "Vaccinations yesterday": 3079,
+      "Cumulative total": 3842059,
+      "Eligible population vaccinated %": "91%",
+      "Total population vaccinated %": "77%",
+      "Vaccinated or booked": 3844653,
+      "Eligible vaccinated or booked %": "91%"
+    },
+    "Second dose": {
+      "Vaccinations yesterday": 6772,
+      "Cumulative total": 3509363,
+      "Eligible population vaccinated %": "83%",
+      "Total population vaccinated %": "70%",
+      "Vaccinated or booked": 3562530,
+      "Eligible vaccinated or booked %": "85%"
+    },
+    "Total doses": {
+      "Vaccinations yesterday": 9851,
+      "Cumulative total": 7351422
+    }
+  },
+  "Cumulative vaccinations by ethnicity": {
+    "Māori": {
+      "First dose administered": 452720,
+      "First doses per 1,000 people": 793,
+      "Second dose administered": 367246,
+      "Second doses per 1,000 people": 643
+    },
+    "Pacific Peoples": {
+      "First dose administered": 256567,
+      "First doses per 1,000 people": 895,
+      "Second dose administered": 226201,
+      "Second doses per 1,000 people": 789
+    },
+    "Asian": {
+      "First dose administered": 617830,
+      "First doses per 1,000 people": ">950",
+      "Second dose administered": 586989,
+      "Second doses per 1,000 people": ">950"
+    },
+    "European / Other": {
+      "First dose administered": 2480219,
+      "First doses per 1,000 people": 908,
+      "Second dose administered": 2297408,
+      "Second doses per 1,000 people": 841
+    },
+    "Unknown": {
+      "First dose administered": 34723,
+      "First doses per 1,000 people": "-",
+      "Second dose administered": 31519,
+      "Second doses per 1,000 people": "-"
+    },
+    "Total": {
+      "First dose administered": 3842059,
+      "First doses per 1,000 people": 913,
+      "Second dose administered": 3509363,
+      "Second doses per 1,000 people": 834
+    }
+  },
+  "All Ethnicities": {
+    "Northland": {
+      "First doses": 135131,
+      "First doses %": "84%",
+      "First doses to 90%": 10057,
+      "Second doses": 118782,
+      "Second doses %": "74%",
+      "Second doses to 90%": 26406,
+      "Population": 161320
+    },
+    "Waitemata": {
+      "First doses": 490096,
+      "First doses %": "93%",
+      "First doses to 90%": 0,
+      "Second doses": 459652,
+      "Second doses %": "87%",
+      "Second doses to 90%": 13826,
+      "Population": 526087
+    },
+    "Auckland": {
+      "First doses": 405525,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 383606,
+      "Second doses %": "90%",
+      "Second doses to 90%": 0,
+      "Population": 423958
+    },
+    "Counties Manukau": {
+      "First doses": 442983,
+      "First doses %": "92%",
+      "First doses to 90%": 0,
+      "Second doses": 408501,
+      "Second doses %": "85%",
+      "Second doses to 90%": 25995,
+      "Population": 482773
+    },
+    "Waikato": {
+      "First doses": 321468,
+      "First doses %": "90%",
+      "First doses to 90%": 0,
+      "Second doses": 289986,
+      "Second doses %": "81%",
+      "Second doses to 90%": 31472,
+      "Population": 357176
+    },
+    "Lakes": {
+      "First doses": 81447,
+      "First doses %": "86%",
+      "First doses to 90%": 3530,
+      "Second doses": 71836,
+      "Second doses %": "76%",
+      "Second doses to 90%": 13141,
+      "Population": 94419
+    },
+    "Bay of Plenty": {
+      "First doses": 190483,
+      "First doses %": "88%",
+      "First doses to 90%": 4764,
+      "Second doses": 168908,
+      "Second doses %": "78%",
+      "Second doses to 90%": 26339,
+      "Population": 216941
+    },
+    "Tairawhiti": {
+      "First doses": 35563,
+      "First doses %": "85%",
+      "First doses to 90%": 2206,
+      "Second doses": 30651,
+      "Second doses %": "73%",
+      "Second doses to 90%": 7118,
+      "Population": 41965
+    },
+    "Taranaki": {
+      "First doses": 90557,
+      "First doses %": "89%",
+      "First doses to 90%": 1375,
+      "Second doses": 79974,
+      "Second doses %": "78%",
+      "Second doses to 90%": 11958,
+      "Population": 102147
+    },
+    "Hawkes Bay": {
+      "First doses": 129892,
+      "First doses %": "89%",
+      "First doses to 90%": 1122,
+      "Second doses": 115681,
+      "Second doses %": "79%",
+      "Second doses to 90%": 15333,
+      "Population": 145571
+    },
+    "MidCentral": {
+      "First doses": 138124,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 124212,
+      "Second doses %": "82%",
+      "Second doses to 90%": 12860,
+      "Population": 152302
+    },
+    "Whanganui": {
+      "First doses": 48828,
+      "First doses %": "85%",
+      "First doses to 90%": 2694,
+      "Second doses": 43672,
+      "Second doses %": "76%",
+      "Second doses to 90%": 7850,
+      "Population": 57247
+    },
+    "Capital and Coast": {
+      "First doses": 256037,
+      "First doses %": "94%",
+      "First doses to 90%": 0,
+      "Second doses": 239228,
+      "Second doses %": "88%",
+      "Second doses to 90%": 4829,
+      "Population": 271174
+    },
+    "Hutt Valley": {
+      "First doses": 119002,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 109112,
+      "Second doses %": "84%",
+      "Second doses to 90%": 8103,
+      "Population": 130239
+    },
+    "Wairarapa": {
+      "First doses": 37758,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 33573,
+      "Second doses %": "81%",
+      "Second doses to 90%": 3711,
+      "Population": 41427
+    },
+    "Nelson Marlborough": {
+      "First doses": 122085,
+      "First doses %": "90%",
+      "First doses to 90%": 84,
+      "Second doses": 111066,
+      "Second doses %": "82%",
+      "Second doses to 90%": 11103,
+      "Population": 135743
+    },
+    "West Coast": {
+      "First doses": 24178,
+      "First doses %": "87%",
+      "First doses to 90%": 937,
+      "Second doses": 21225,
+      "Second doses %": "76%",
+      "Second doses to 90%": 3890,
+      "Population": 27906
+    },
+    "Canterbury": {
+      "First doses": 455322,
+      "First doses %": "94%",
+      "First doses to 90%": 0,
+      "Second doses": 410227,
+      "Second doses %": "85%",
+      "Second doses to 90%": 24374,
+      "Population": 482890
+    },
+    "South Canterbury": {
+      "First doses": 47194,
+      "First doses %": "90%",
+      "First doses to 90%": 132,
+      "Second doses": 43003,
+      "Second doses %": "82%",
+      "Second doses to 90%": 4323,
+      "Population": 52584
+    },
+    "Southern": {
+      "First doses": 267550,
+      "First doses %": "93%",
+      "First doses to 90%": 0,
+      "Second doses": 243919,
+      "Second doses %": "85%",
+      "Second doses to 90%": 15294,
+      "Population": 288015
+    },
+    "Overseas / Unknown": {
+      "First doses": 2836,
+      "First doses %": "17%",
+      "First doses to 90%": 12620,
+      "Second doses": 2549,
+      "Second doses %": "15%",
+      "Second doses to 90%": 12907,
+      "Population": 17173
+    },
+    "New Zealand": {
+      "First doses": 3842059,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 3509363,
+      "Second doses %": "83%",
+      "Second doses to 90%": 278788,
+      "Population": 4209057
+    },
+    "All DHBs to 90%": {
+      "First doses": 0,
+      "First doses %": 0,
+      "First doses to 90%": 39521,
+      "Second doses": 0,
+      "Second doses %": 0,
+      "Second doses to 90%": 280832,
+      "Population": 0
+    }
+  },
+  "Māori": {
+    "Northland": {
+      "First doses": 37962,
+      "First doses %": "75%",
+      "First doses to 90%": 7477,
+      "Second doses": 30101,
+      "Second doses %": "60%",
+      "Second doses to 90%": 15338,
+      "Population": 50488
+    },
+    "Waitemata": {
+      "First doses": 34900,
+      "First doses %": "85%",
+      "First doses to 90%": 2102,
+      "Second doses": 29870,
+      "Second doses %": "73%",
+      "Second doses to 90%": 7132,
+      "Population": 41113
+    },
+    "Auckland": {
+      "First doses": 24410,
+      "First doses %": "88%",
+      "First doses to 90%": 603,
+      "Second doses": 21067,
+      "Second doses %": "76%",
+      "Second doses to 90%": 3946,
+      "Population": 27792
+    },
+    "Counties Manukau": {
+      "First doses": 51156,
+      "First doses %": "81%",
+      "First doses to 90%": 5988,
+      "Second doses": 41964,
+      "Second doses %": "66%",
+      "Second doses to 90%": 15180,
+      "Population": 63493
+    },
+    "Waikato": {
+      "First doses": 55468,
+      "First doses %": "80%",
+      "First doses to 90%": 7268,
+      "Second doses": 44421,
+      "Second doses %": "64%",
+      "Second doses to 90%": 18315,
+      "Population": 69707
+    },
+    "Lakes": {
+      "First doses": 22762,
+      "First doses %": "76%",
+      "First doses to 90%": 4314,
+      "Second doses": 17851,
+      "Second doses %": "59%",
+      "Second doses to 90%": 9226,
+      "Population": 30085
+    },
+    "Bay of Plenty": {
+      "First doses": 34801,
+      "First doses %": "73%",
+      "First doses to 90%": 8160,
+      "Second doses": 27293,
+      "Second doses %": "57%",
+      "Second doses to 90%": 15668,
+      "Population": 47734
+    },
+    "Tairawhiti": {
+      "First doses": 15418,
+      "First doses %": "78%",
+      "First doses to 90%": 2437,
+      "Second doses": 12276,
+      "Second doses %": "62%",
+      "Second doses to 90%": 5579,
+      "Population": 19839
+    },
+    "Taranaki": {
+      "First doses": 12264,
+      "First doses %": "77%",
+      "First doses to 90%": 2050,
+      "Second doses": 9646,
+      "Second doses %": "61%",
+      "Second doses to 90%": 4668,
+      "Population": 15904
+    },
+    "Hawkes Bay": {
+      "First doses": 26126,
+      "First doses %": "77%",
+      "First doses to 90%": 4527,
+      "Second doses": 20470,
+      "Second doses %": "60%",
+      "Second doses to 90%": 10183,
+      "Population": 34059
+    },
+    "MidCentral": {
+      "First doses": 19481,
+      "First doses %": "80%",
+      "First doses to 90%": 2322,
+      "Second doses": 15468,
+      "Second doses %": "64%",
+      "Second doses to 90%": 6334,
+      "Population": 24225
+    },
+    "Whanganui": {
+      "First doses": 9950,
+      "First doses %": "74%",
+      "First doses to 90%": 2211,
+      "Second doses": 7983,
+      "Second doses %": "59%",
+      "Second doses to 90%": 4178,
+      "Population": 13512
+    },
+    "Capital and Coast": {
+      "First doses": 23103,
+      "First doses %": "86%",
+      "First doses to 90%": 1167,
+      "Second doses": 19767,
+      "Second doses %": "73%",
+      "Second doses to 90%": 4503,
+      "Population": 26967
+    },
+    "Hutt Valley": {
+      "First doses": 15426,
+      "First doses %": "81%",
+      "First doses to 90%": 1785,
+      "Second doses": 12783,
+      "Second doses %": "67%",
+      "Second doses to 90%": 4428,
+      "Population": 19123
+    },
+    "Wairarapa": {
+      "First doses": 5205,
+      "First doses %": "83%",
+      "First doses to 90%": 467,
+      "Second doses": 3946,
+      "Second doses %": "63%",
+      "Second doses to 90%": 1726,
+      "Population": 6302
+    },
+    "Nelson Marlborough": {
+      "First doses": 8678,
+      "First doses %": "77%",
+      "First doses to 90%": 1445,
+      "Second doses": 7028,
+      "Second doses %": "62%",
+      "Second doses to 90%": 3095,
+      "Population": 11248
+    },
+    "West Coast": {
+      "First doses": 2179,
+      "First doses %": "79%",
+      "First doses to 90%": 310,
+      "Second doses": 1775,
+      "Second doses %": "64%",
+      "Second doses to 90%": 714,
+      "Population": 2765
+    },
+    "Canterbury": {
+      "First doses": 30998,
+      "First doses %": "84%",
+      "First doses to 90%": 2274,
+      "Second doses": 24969,
+      "Second doses %": "68%",
+      "Second doses to 90%": 8303,
+      "Population": 36969
+    },
+    "South Canterbury": {
+      "First doses": 2680,
+      "First doses %": "78%",
+      "First doses to 90%": 405,
+      "Second doses": 2190,
+      "Second doses %": "64%",
+      "Second doses to 90%": 895,
+      "Population": 3428
+    },
+    "Southern": {
+      "First doses": 19464,
+      "First doses %": "82%",
+      "First doses to 90%": 1817,
+      "Second doses": 16152,
+      "Second doses %": "68%",
+      "Second doses to 90%": 5129,
+      "Population": 23646
+    },
+    "Overseas / Unknown": {
+      "First doses": 289,
+      "First doses %": "11%",
+      "First doses to 90%": 2099,
+      "Second doses": 226,
+      "Second doses %": "9%",
+      "Second doses to 90%": 2162,
+      "Population": 2653
+    },
+    "New Zealand": {
+      "First doses": 452720,
+      "First doses %": "79%",
+      "First doses to 90%": 61227,
+      "Second doses": 367246,
+      "Second doses %": "64%",
+      "Second doses to 90%": 146701,
+      "Population": 571052
+    },
+    "All DHBs to 90%": {
+      "First doses": 0,
+      "First doses %": 0,
+      "First doses to 90%": 61228,
+      "Second doses": 0,
+      "Second doses %": 0,
+      "Second doses to 90%": 146702,
+      "Population": 0
+    }
+  },
+  "Pacific Peoples": {
+    "Northland": {
+      "First doses": 2592,
+      "First doses %": "88%",
+      "First doses to 90%": 49,
+      "Second doses": 2182,
+      "Second doses %": "74%",
+      "Second doses to 90%": 459,
+      "Population": 2934
+    },
+    "Waitemata": {
+      "First doses": 33471,
+      "First doses %": "89%",
+      "First doses to 90%": 345,
+      "Second doses": 29872,
+      "Second doses %": "80%",
+      "Second doses to 90%": 3944,
+      "Population": 37573
+    },
+    "Auckland": {
+      "First doses": 41403,
+      "First doses %": "88%",
+      "First doses to 90%": 776,
+      "Second doses": 37002,
+      "Second doses %": "79%",
+      "Second doses to 90%": 5177,
+      "Population": 46866
+    },
+    "Counties Manukau": {
+      "First doses": 101808,
+      "First doses %": "87%",
+      "First doses to 90%": 3040,
+      "Second doses": 90190,
+      "Second doses %": "77%",
+      "Second doses to 90%": 14658,
+      "Population": 116498
+    },
+    "Waikato": {
+      "First doses": 9612,
+      "First doses %": "90%",
+      "First doses to 90%": 2,
+      "Second doses": 8408,
+      "Second doses %": "79%",
+      "Second doses to 90%": 1206,
+      "Population": 10682
+    },
+    "Lakes": {
+      "First doses": 1978,
+      "First doses %": "87%",
+      "First doses to 90%": 79,
+      "Second doses": 1686,
+      "Second doses %": "74%",
+      "Second doses to 90%": 371,
+      "Population": 2286
+    },
+    "Bay of Plenty": {
+      "First doses": 4344,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 3753,
+      "Second doses %": ">95%",
+      "Second doses to 90%": 0,
+      "Population": 3679
+    },
+    "Tairawhiti": {
+      "First doses": 936,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 797,
+      "Second doses %": "83%",
+      "Second doses to 90%": 72,
+      "Population": 965
+    },
+    "Taranaki": {
+      "First doses": 1155,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 960,
+      "Second doses %": "76%",
+      "Second doses to 90%": 183,
+      "Population": 1270
+    },
+    "Hawkes Bay": {
+      "First doses": 5510,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 4787,
+      "Second doses %": ">95%",
+      "Second doses to 90%": 0,
+      "Population": 5020
+    },
+    "MidCentral": {
+      "First doses": 4044,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 3458,
+      "Second doses %": "77%",
+      "Second doses to 90%": 563,
+      "Population": 4468
+    },
+    "Whanganui": {
+      "First doses": 1126,
+      "First doses %": "82%",
+      "First doses to 90%": 117,
+      "Second doses": 959,
+      "Second doses %": "69%",
+      "Second doses to 90%": 284,
+      "Population": 1381
+    },
+    "Capital and Coast": {
+      "First doses": 16662,
+      "First doses %": "87%",
+      "First doses to 90%": 597,
+      "Second doses": 14407,
+      "Second doses %": "75%",
+      "Second doses to 90%": 2852,
+      "Population": 19177
+    },
+    "Hutt Valley": {
+      "First doses": 8493,
+      "First doses %": "86%",
+      "First doses to 90%": 412,
+      "Second doses": 7476,
+      "Second doses %": "76%",
+      "Second doses to 90%": 1429,
+      "Population": 9894
+    },
+    "Wairarapa": {
+      "First doses": 765,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 643,
+      "Second doses %": "77%",
+      "Second doses to 90%": 110,
+      "Population": 837
+    },
+    "Nelson Marlborough": {
+      "First doses": 3752,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 3440,
+      "Second doses %": ">95%",
+      "Second doses to 90%": 0,
+      "Population": 2115
+    },
+    "West Coast": {
+      "First doses": 256,
+      "First doses %": "91%",
+      "First doses to 90%": 0,
+      "Second doses": 217,
+      "Second doses %": "77%",
+      "Second doses to 90%": 37,
+      "Population": 282
+    },
+    "Canterbury": {
+      "First doses": 11512,
+      "First doses %": "90%",
+      "First doses to 90%": 0,
+      "Second doses": 9744,
+      "Second doses %": "77%",
+      "Second doses to 90%": 1719,
+      "Population": 12737
+    },
+    "South Canterbury": {
+      "First doses": 833,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 725,
+      "Second doses %": "87%",
+      "Second doses to 90%": 28,
+      "Population": 837
+    },
+    "Southern": {
+      "First doses": 5934,
+      "First doses %": ">95%",
+      "First doses to 90%": 0,
+      "Second doses": 5141,
+      "Second doses %": "85%",
+      "Second doses to 90%": 287,
+      "Population": 6031
+    },
+    "Overseas / Unknown": {
+      "First doses": 381,
+      "First doses %": "33%",
+      "First doses to 90%": 653,
+      "Second doses": 354,
+      "Second doses %": "31%",
+      "Second doses to 90%": 680,
+      "Population": 1149
+    },
+    "New Zealand": {
+      "First doses": 256567,
+      "First doses %": "89%",
+      "First doses to 90%": 1446,
+      "Second doses": 226201,
+      "Second doses %": "79%",
+      "Second doses to 90%": 31812,
+      "Population": 286681
+    },
+    "All DHBs to 90%": {
+      "First doses": 0,
+      "First doses %": 0,
+      "First doses to 90%": 6070,
+      "Second doses": 0,
+      "Second doses %": 0,
+      "Second doses to 90%": 34059,
+      "Population": 0
+    }
+  },
+  "Cumulative vaccinations by age": {
+    "12 - 19 years": {
+      "First dose administered": 434461,
+      "First doses per 1,000 people": 865,
+      "Fully vaccinated": 358431,
+      "Fully vaccinated per 1,000 people": 713
+    },
+    "20 - 34 years": {
+      "First dose administered": 906600,
+      "First doses per 1,000 people": 877,
+      "Fully vaccinated": 760182,
+      "Fully vaccinated per 1,000 people": 735
+    },
+    "35 - 49 years": {
+      "First dose administered": 857675,
+      "First doses per 1,000 people": 897,
+      "Fully vaccinated": 775132,
+      "Fully vaccinated per 1,000 people": 810
+    },
+    "50 - 64 years": {
+      "First dose administered": 855961,
+      "First doses per 1,000 people": 923,
+      "Fully vaccinated": 809396,
+      "Fully vaccinated per 1,000 people": 873
+    },
+    "65 and over": {
+      "First dose administered": 758198,
+      "First doses per 1,000 people": 962,
+      "Fully vaccinated": 739199,
+      "Fully vaccinated per 1,000 people": 938
+    },
+    "Total": {
+      "First dose administered": 3812895,
+      "First doses per 1,000 people": 906,
+      "Fully vaccinated": 3442340,
+      "Fully vaccinated per 1,000 people": 818
+    }
+  },
+  "Wastage of vaccine stock": {
+    "New Zealand": {
+      "Wastage": "0.31%"
+    }
+  }
+}

@@ -1,0 +1,702 @@
+{
+  "Total Vaccinations": {
+    "First dose": {
+      "Vaccinations yesterday": 2485,
+      "Cumulative total": 3954873,
+      "Eligible population vaccinated %": "94%",
+      "Total population vaccinated %": "79%",
+      "Vaccinated or booked": 3956227,
+      "Eligible vaccinated or booked %": "94%"
+    },
+    "Second dose": {
+      "Vaccinations yesterday": 7877,
+      "Cumulative total": 3766864,
+      "Eligible population vaccinated %": "89%",
+      "Total population vaccinated %": "75%",
+      "Vaccinated or booked": 3786349,
+      "Eligible vaccinated or booked %": "90%"
+    },
+    "Third primary": {
+      "Vaccinations yesterday": 869,
+      "Cumulative total": 22321
+    },
+    "Boosters": {
+      "Vaccinations yesterday": 9229,
+      "Cumulative total": 174719
+    },
+    "Total doses": {
+      "Vaccinations yesterday": 20460,
+      "Cumulative total": 7918777
+    }
+  },
+  "Vaccinations uptake by ethnicity": {
+    "Māori": {
+      "At least partially vaccinated": 492873,
+      "At least partially vaccinated per 1,000 people": 863,
+      "Fully vaccinated": 433351,
+      "Fully vaccinated per 1,000 people": 759
+    },
+    "Pacific Peoples": {
+      "At least partially vaccinated": 268303,
+      "At least partially vaccinated per 1,000 people": 936,
+      "Fully vaccinated": 249784,
+      "Fully vaccinated per 1,000 people": 871
+    },
+    "Asian": {
+      "At least partially vaccinated": 626754,
+      "At least partially vaccinated per 1,000 people": ">990",
+      "Fully vaccinated": 612667,
+      "Fully vaccinated per 1,000 people": ">990"
+    },
+    "European / Other": {
+      "At least partially vaccinated": 2539773,
+      "At least partially vaccinated per 1,000 people": 930,
+      "Fully vaccinated": 2448776,
+      "Fully vaccinated per 1,000 people": 897
+    },
+    "Unknown": {
+      "At least partially vaccinated": 38541,
+      "At least partially vaccinated per 1,000 people": "-",
+      "Fully vaccinated": 36156,
+      "Fully vaccinated per 1,000 people": "-"
+    },
+    "Total": {
+      "At least partially vaccinated": 3966244,
+      "At least partially vaccinated per 1,000 people": 942,
+      "Fully vaccinated": 3780734,
+      "Fully vaccinated per 1,000 people": 898
+    }
+  },
+  "All Ethnicities": {
+    "Northland": {
+      "At least partially vaccinated": 141375,
+      "At least partially vaccinated %": "88%",
+      "At least partially vaccinated to 90%": 3813,
+      "Fully vaccinated": 131384,
+      "Fully vaccinated %": "81%",
+      "Fully vaccinated to 90%": 13804,
+      "Population": 161320
+    },
+    "Waitemata": {
+      "At least partially vaccinated": 498831,
+      "At least partially vaccinated %": "95%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 483773,
+      "Fully vaccinated %": "92%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 526087
+    },
+    "Auckland": {
+      "At least partially vaccinated": 413260,
+      "At least partially vaccinated %": "97%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 401751,
+      "Fully vaccinated %": "95%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 423958
+    },
+    "Counties Manukau": {
+      "At least partially vaccinated": 453829,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 434564,
+      "Fully vaccinated %": "90%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 482773
+    },
+    "Waikato": {
+      "At least partially vaccinated": 331964,
+      "At least partially vaccinated %": "93%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 313990,
+      "Fully vaccinated %": "88%",
+      "Fully vaccinated to 90%": 7468,
+      "Population": 357176
+    },
+    "Lakes": {
+      "At least partially vaccinated": 85966,
+      "At least partially vaccinated %": "91%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 79690,
+      "Fully vaccinated %": "84%",
+      "Fully vaccinated to 90%": 5287,
+      "Population": 94419
+    },
+    "Bay of Plenty": {
+      "At least partially vaccinated": 200679,
+      "At least partially vaccinated %": "93%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 186591,
+      "Fully vaccinated %": "86%",
+      "Fully vaccinated to 90%": 8656,
+      "Population": 216941
+    },
+    "Tairawhiti": {
+      "At least partially vaccinated": 37776,
+      "At least partially vaccinated %": "90%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 34533,
+      "Fully vaccinated %": "82%",
+      "Fully vaccinated to 90%": 3236,
+      "Population": 41965
+    },
+    "Taranaki": {
+      "At least partially vaccinated": 94194,
+      "At least partially vaccinated %": "92%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 88352,
+      "Fully vaccinated %": "86%",
+      "Fully vaccinated to 90%": 3580,
+      "Population": 102147
+    },
+    "Hawkes Bay": {
+      "At least partially vaccinated": 136306,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 127175,
+      "Fully vaccinated %": "87%",
+      "Fully vaccinated to 90%": 3839,
+      "Population": 145571
+    },
+    "MidCentral": {
+      "At least partially vaccinated": 143818,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 135317,
+      "Fully vaccinated %": "89%",
+      "Fully vaccinated to 90%": 1755,
+      "Population": 152302
+    },
+    "Whanganui": {
+      "At least partially vaccinated": 51445,
+      "At least partially vaccinated %": "90%",
+      "At least partially vaccinated to 90%": 77,
+      "Fully vaccinated": 47858,
+      "Fully vaccinated %": "84%",
+      "Fully vaccinated to 90%": 3664,
+      "Population": 57247
+    },
+    "Capital and Coast": {
+      "At least partially vaccinated": 263026,
+      "At least partially vaccinated %": "97%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 254372,
+      "Fully vaccinated %": "94%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 271174
+    },
+    "Hutt Valley": {
+      "At least partially vaccinated": 123671,
+      "At least partially vaccinated %": "95%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 117687,
+      "Fully vaccinated %": "90%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 130239
+    },
+    "Wairarapa": {
+      "At least partially vaccinated": 39116,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 36889,
+      "Fully vaccinated %": "89%",
+      "Fully vaccinated to 90%": 395,
+      "Population": 41427
+    },
+    "Nelson Marlborough": {
+      "At least partially vaccinated": 127703,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 120264,
+      "Fully vaccinated %": "89%",
+      "Fully vaccinated to 90%": 1905,
+      "Population": 135743
+    },
+    "West Coast": {
+      "At least partially vaccinated": 25319,
+      "At least partially vaccinated %": "91%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 23536,
+      "Fully vaccinated %": "84%",
+      "Fully vaccinated to 90%": 1579,
+      "Population": 27906
+    },
+    "Canterbury": {
+      "At least partially vaccinated": 469852,
+      "At least partially vaccinated %": "97%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 449935,
+      "Fully vaccinated %": "93%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 482890
+    },
+    "South Canterbury": {
+      "At least partially vaccinated": 48945,
+      "At least partially vaccinated %": "93%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 46576,
+      "Fully vaccinated %": "89%",
+      "Fully vaccinated to 90%": 750,
+      "Population": 52584
+    },
+    "Southern": {
+      "At least partially vaccinated": 276320,
+      "At least partially vaccinated %": "96%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 263859,
+      "Fully vaccinated %": "92%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 288015
+    },
+    "Overseas / Unknown": {
+      "At least partially vaccinated": 2849,
+      "At least partially vaccinated %": "17%",
+      "At least partially vaccinated to 90%": 12607,
+      "Fully vaccinated": 2638,
+      "Fully vaccinated %": "15%",
+      "Fully vaccinated to 90%": 12818,
+      "Population": 17173
+    },
+    "New Zealand": {
+      "At least partially vaccinated": 3966244,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 3780734,
+      "Fully vaccinated %": "90%",
+      "Fully vaccinated to 90%": 7417,
+      "Population": 4209057
+    },
+    "All DHBs to 90%": {
+      "At least partially vaccinated": 0,
+      "At least partially vaccinated %": 0,
+      "At least partially vaccinated to 90%": 16497,
+      "Fully vaccinated": 0,
+      "Fully vaccinated %": 0,
+      "Fully vaccinated to 90%": 68736,
+      "Population": 0
+    }
+  },
+  "Māori": {
+    "Northland": {
+      "At least partially vaccinated": 41318,
+      "At least partially vaccinated %": "82%",
+      "At least partially vaccinated to 90%": 4121,
+      "Fully vaccinated": 35824,
+      "Fully vaccinated %": "71%",
+      "Fully vaccinated to 90%": 9615,
+      "Population": 50488
+    },
+    "Waitemata": {
+      "At least partially vaccinated": 36590,
+      "At least partially vaccinated %": "89%",
+      "At least partially vaccinated to 90%": 412,
+      "Fully vaccinated": 33778,
+      "Fully vaccinated %": "82%",
+      "Fully vaccinated to 90%": 3224,
+      "Population": 41113
+    },
+    "Auckland": {
+      "At least partially vaccinated": 25450,
+      "At least partially vaccinated %": "92%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 23513,
+      "Fully vaccinated %": "85%",
+      "Fully vaccinated to 90%": 1500,
+      "Population": 27792
+    },
+    "Counties Manukau": {
+      "At least partially vaccinated": 54623,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 2521,
+      "Fully vaccinated": 48748,
+      "Fully vaccinated %": "77%",
+      "Fully vaccinated to 90%": 8396,
+      "Population": 63493
+    },
+    "Waikato": {
+      "At least partially vaccinated": 60114,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 2622,
+      "Fully vaccinated": 52533,
+      "Fully vaccinated %": "75%",
+      "Fully vaccinated to 90%": 10203,
+      "Population": 69707
+    },
+    "Lakes": {
+      "At least partially vaccinated": 25529,
+      "At least partially vaccinated %": "85%",
+      "At least partially vaccinated to 90%": 1548,
+      "Fully vaccinated": 21826,
+      "Fully vaccinated %": "73%",
+      "Fully vaccinated to 90%": 5250,
+      "Population": 30085
+    },
+    "Bay of Plenty": {
+      "At least partially vaccinated": 39369,
+      "At least partially vaccinated %": "82%",
+      "At least partially vaccinated to 90%": 3592,
+      "Fully vaccinated": 33221,
+      "Fully vaccinated %": "70%",
+      "Fully vaccinated to 90%": 9740,
+      "Population": 47734
+    },
+    "Tairawhiti": {
+      "At least partially vaccinated": 17014,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 841,
+      "Fully vaccinated": 14724,
+      "Fully vaccinated %": "74%",
+      "Fully vaccinated to 90%": 3131,
+      "Population": 19839
+    },
+    "Taranaki": {
+      "At least partially vaccinated": 13457,
+      "At least partially vaccinated %": "85%",
+      "At least partially vaccinated to 90%": 857,
+      "Fully vaccinated": 11660,
+      "Fully vaccinated %": "73%",
+      "Fully vaccinated to 90%": 2654,
+      "Population": 15904
+    },
+    "Hawkes Bay": {
+      "At least partially vaccinated": 29064,
+      "At least partially vaccinated %": "85%",
+      "At least partially vaccinated to 90%": 1589,
+      "Fully vaccinated": 24781,
+      "Fully vaccinated %": "73%",
+      "Fully vaccinated to 90%": 5872,
+      "Population": 34059
+    },
+    "MidCentral": {
+      "At least partially vaccinated": 21660,
+      "At least partially vaccinated %": "89%",
+      "At least partially vaccinated to 90%": 142,
+      "Fully vaccinated": 18567,
+      "Fully vaccinated %": "77%",
+      "Fully vaccinated to 90%": 3236,
+      "Population": 24225
+    },
+    "Whanganui": {
+      "At least partially vaccinated": 11146,
+      "At least partially vaccinated %": "82%",
+      "At least partially vaccinated to 90%": 1015,
+      "Fully vaccinated": 9572,
+      "Fully vaccinated %": "71%",
+      "Fully vaccinated to 90%": 2589,
+      "Population": 13512
+    },
+    "Capital and Coast": {
+      "At least partially vaccinated": 24815,
+      "At least partially vaccinated %": "92%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 22558,
+      "Fully vaccinated %": "84%",
+      "Fully vaccinated to 90%": 1712,
+      "Population": 26967
+    },
+    "Hutt Valley": {
+      "At least partially vaccinated": 17089,
+      "At least partially vaccinated %": "89%",
+      "At least partially vaccinated to 90%": 122,
+      "Fully vaccinated": 15021,
+      "Fully vaccinated %": "79%",
+      "Fully vaccinated to 90%": 2190,
+      "Population": 19123
+    },
+    "Wairarapa": {
+      "At least partially vaccinated": 5629,
+      "At least partially vaccinated %": "89%",
+      "At least partially vaccinated to 90%": 43,
+      "Fully vaccinated": 4881,
+      "Fully vaccinated %": "77%",
+      "Fully vaccinated to 90%": 791,
+      "Population": 6302
+    },
+    "Nelson Marlborough": {
+      "At least partially vaccinated": 9701,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 422,
+      "Fully vaccinated": 8332,
+      "Fully vaccinated %": "74%",
+      "Fully vaccinated to 90%": 1791,
+      "Population": 11248
+    },
+    "West Coast": {
+      "At least partially vaccinated": 2360,
+      "At least partially vaccinated %": "85%",
+      "At least partially vaccinated to 90%": 128,
+      "Fully vaccinated": 2085,
+      "Fully vaccinated %": "75%",
+      "Fully vaccinated to 90%": 404,
+      "Population": 2765
+    },
+    "Canterbury": {
+      "At least partially vaccinated": 33613,
+      "At least partially vaccinated %": "91%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 30014,
+      "Fully vaccinated %": "81%",
+      "Fully vaccinated to 90%": 3258,
+      "Population": 36969
+    },
+    "South Canterbury": {
+      "At least partially vaccinated": 2951,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 134,
+      "Fully vaccinated": 2587,
+      "Fully vaccinated %": "75%",
+      "Fully vaccinated to 90%": 498,
+      "Population": 3428
+    },
+    "Southern": {
+      "At least partially vaccinated": 21075,
+      "At least partially vaccinated %": "89%",
+      "At least partially vaccinated to 90%": 206,
+      "Fully vaccinated": 18875,
+      "Fully vaccinated %": "80%",
+      "Fully vaccinated to 90%": 2406,
+      "Population": 23646
+    },
+    "Overseas / Unknown": {
+      "At least partially vaccinated": 306,
+      "At least partially vaccinated %": "12%",
+      "At least partially vaccinated to 90%": 2082,
+      "Fully vaccinated": 251,
+      "Fully vaccinated %": "9%",
+      "Fully vaccinated to 90%": 2137,
+      "Population": 2653
+    },
+    "New Zealand": {
+      "At least partially vaccinated": 492873,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 21074,
+      "Fully vaccinated": 433351,
+      "Fully vaccinated %": "76%",
+      "Fully vaccinated to 90%": 80596,
+      "Population": 571052
+    },
+    "All DHBs to 90%": {
+      "At least partially vaccinated": 0,
+      "At least partially vaccinated %": 0,
+      "At least partially vaccinated to 90%": 22397,
+      "Fully vaccinated": 0,
+      "Fully vaccinated %": 0,
+      "Fully vaccinated to 90%": 80597,
+      "Population": 0
+    }
+  },
+  "Pacific Peoples": {
+    "Northland": {
+      "At least partially vaccinated": 2783,
+      "At least partially vaccinated %": "95%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 2508,
+      "Fully vaccinated %": "85%",
+      "Fully vaccinated to 90%": 133,
+      "Population": 2934
+    },
+    "Waitemata": {
+      "At least partially vaccinated": 34657,
+      "At least partially vaccinated %": "92%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 32559,
+      "Fully vaccinated %": "87%",
+      "Fully vaccinated to 90%": 1257,
+      "Population": 37573
+    },
+    "Auckland": {
+      "At least partially vaccinated": 42819,
+      "At least partially vaccinated %": "91%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 40182,
+      "Fully vaccinated %": "86%",
+      "Fully vaccinated to 90%": 1997,
+      "Population": 46866
+    },
+    "Counties Manukau": {
+      "At least partially vaccinated": 105677,
+      "At least partially vaccinated %": "91%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 98819,
+      "Fully vaccinated %": "85%",
+      "Fully vaccinated to 90%": 6029,
+      "Population": 116498
+    },
+    "Waikato": {
+      "At least partially vaccinated": 10060,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 9343,
+      "Fully vaccinated %": "87%",
+      "Fully vaccinated to 90%": 271,
+      "Population": 10682
+    },
+    "Lakes": {
+      "At least partially vaccinated": 2109,
+      "At least partially vaccinated %": "92%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 1927,
+      "Fully vaccinated %": "84%",
+      "Fully vaccinated to 90%": 130,
+      "Population": 2286
+    },
+    "Bay of Plenty": {
+      "At least partially vaccinated": 4637,
+      "At least partially vaccinated %": ">99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 4229,
+      "Fully vaccinated %": ">99%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 3679
+    },
+    "Tairawhiti": {
+      "At least partially vaccinated": 1000,
+      "At least partially vaccinated %": ">99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 913,
+      "Fully vaccinated %": "95%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 965
+    },
+    "Taranaki": {
+      "At least partially vaccinated": 1252,
+      "At least partially vaccinated %": "99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 1109,
+      "Fully vaccinated %": "87%",
+      "Fully vaccinated to 90%": 34,
+      "Population": 1270
+    },
+    "Hawkes Bay": {
+      "At least partially vaccinated": 6015,
+      "At least partially vaccinated %": ">99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 5463,
+      "Fully vaccinated %": ">99%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 5020
+    },
+    "MidCentral": {
+      "At least partially vaccinated": 4302,
+      "At least partially vaccinated %": "96%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 3925,
+      "Fully vaccinated %": "88%",
+      "Fully vaccinated to 90%": 96,
+      "Population": 4468
+    },
+    "Whanganui": {
+      "At least partially vaccinated": 1183,
+      "At least partially vaccinated %": "86%",
+      "At least partially vaccinated to 90%": 60,
+      "Fully vaccinated": 1082,
+      "Fully vaccinated %": "78%",
+      "Fully vaccinated to 90%": 161,
+      "Population": 1381
+    },
+    "Capital and Coast": {
+      "At least partially vaccinated": 17752,
+      "At least partially vaccinated %": "93%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 16355,
+      "Fully vaccinated %": "85%",
+      "Fully vaccinated to 90%": 904,
+      "Population": 19177
+    },
+    "Hutt Valley": {
+      "At least partially vaccinated": 9127,
+      "At least partially vaccinated %": "92%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 8340,
+      "Fully vaccinated %": "84%",
+      "Fully vaccinated to 90%": 565,
+      "Population": 9894
+    },
+    "Wairarapa": {
+      "At least partially vaccinated": 812,
+      "At least partially vaccinated %": "97%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 755,
+      "Fully vaccinated %": "90%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 837
+    },
+    "Nelson Marlborough": {
+      "At least partially vaccinated": 3981,
+      "At least partially vaccinated %": ">99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 3737,
+      "Fully vaccinated %": ">99%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 2115
+    },
+    "West Coast": {
+      "At least partially vaccinated": 278,
+      "At least partially vaccinated %": "99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 255,
+      "Fully vaccinated %": "90%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 282
+    },
+    "Canterbury": {
+      "At least partially vaccinated": 12219,
+      "At least partially vaccinated %": "96%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 11239,
+      "Fully vaccinated %": "88%",
+      "Fully vaccinated to 90%": 224,
+      "Population": 12737
+    },
+    "South Canterbury": {
+      "At least partially vaccinated": 905,
+      "At least partially vaccinated %": ">99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 819,
+      "Fully vaccinated %": "98%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 837
+    },
+    "Southern": {
+      "At least partially vaccinated": 6359,
+      "At least partially vaccinated %": ">99%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 5877,
+      "Fully vaccinated %": "97%",
+      "Fully vaccinated to 90%": 0,
+      "Population": 6031
+    },
+    "Overseas / Unknown": {
+      "At least partially vaccinated": 376,
+      "At least partially vaccinated %": "33%",
+      "At least partially vaccinated to 90%": 658,
+      "Fully vaccinated": 348,
+      "Fully vaccinated %": "30%",
+      "Fully vaccinated to 90%": 686,
+      "Population": 1149
+    },
+    "New Zealand": {
+      "At least partially vaccinated": 268303,
+      "At least partially vaccinated %": "94%",
+      "At least partially vaccinated to 90%": 0,
+      "Fully vaccinated": 249784,
+      "Fully vaccinated %": "87%",
+      "Fully vaccinated to 90%": 8229,
+      "Population": 286681
+    },
+    "All DHBs to 90%": {
+      "At least partially vaccinated": 0,
+      "At least partially vaccinated %": 0,
+      "At least partially vaccinated to 90%": 718,
+      "Fully vaccinated": 0,
+      "Fully vaccinated %": 0,
+      "Fully vaccinated to 90%": 12487,
+      "Population": 0
+    }
+  },
+  "Wastage of vaccine stock": {
+    "New Zealand": {
+      "Wastage": "0.41%"
+    }
+  }
+}
