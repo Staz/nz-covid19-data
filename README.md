@@ -6,6 +6,8 @@ Some gotchas I found when playing with [Github flat data](https://github.com/mar
 
 Stats NZ
 
+![example workflow](https://github.com/Staz/nz-covid19-data/actions/workflows/statsnz.yml/badge.svg)
+
 - [number_of_cases.json](/data/statsnz/number_of_cases.json)
 - [tests_per_day.json](/data/statsnz/tests_per_day.json)
 - [weekly_deaths_by_age_and_sex.json](/data/statsnz/weekly_deaths_by_age_and_sex.json) (all deaths, not just COVID-19!)
