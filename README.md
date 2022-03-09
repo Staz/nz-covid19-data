@@ -2,9 +2,9 @@ Some gotchas I found when playing with [Github flat data](https://github.com/mar
 
 - The directories in the `downloaded_filename` path must already exist. They aren't created by the action. I was forced to create empty directories (apart from a README.md)
 
-### Current data updated daily
+## Current data updated daily
 
-#### Stats NZ
+### Stats NZ
 
 ![workflow](https://github.com/Staz/nz-covid19-data/actions/workflows/statsnz.yml/badge.svg)
 
@@ -25,26 +25,26 @@ HTML Snapshots of [Ministry of Health COVID-19 stats pages](https://www.health.g
 - [Testing for COVID-19](/data/moh/testing-covid-19)
 - [COVID-19: Vaccine data](/data/moh/covid-19-vaccine-data)
 
-#### NZ data from [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
+### NZ data from [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19)
 
 ![workflow](https://github.com/Staz/nz-covid19-data/actions/workflows/jhucsse.yml/badge.svg)
 
 - [time_series_covid19_confirmed_nz.csv](/data/jhu-csse/time_series_covid19_confirmed_nz.csv)
 - [time_series_covid19_deaths_nz.csv](/data/jhu-csse/time_series_covid19_deaths_nz.csv)
 
-#### NZ data from the [Our World in Data COVID-19 Dataset](https://github.com/owid/covidP19-data)
+### NZ data from the [Our World in Data COVID-19 Dataset](https://github.com/owid/covidP19-data)
 
 ![workflow](https://github.com/Staz/nz-covid19-data/actions/workflows/owid.yml/badge.svg)
 
 - [owid-covid-data-nz.csv](/data/owid/owid-covid-data-nz.csv)
 
-### Other data added manually
+## Other data added manually
 
 Stats NZ
 
 - [estimated_resident_population_by_age_and_sex.csv](/data/statsnz/estimated_resident_population_by_age_and_sex.csv)
 
-### Scripts
+## Scripts
 
 `scripts/moh/mohpagetojson.ts` scrapes the tables in the supplied MOH stats page and outputs a JSON document keyed by table name. 
 
@@ -52,7 +52,7 @@ Stats NZ
 
 `scripts/waybackmachine/processmohpagesnapshots.ts` renames each snaphot according to the date of the data contained within the page: `YYYY-MM-DDTHH:mm.html` (ISO 8601)
 
-### Coming Soon
+## Coming Soon
 
 - Automatically pull down latest OWID and JHU CSSE data within 10 mins of it being updated
 
@@ -60,7 +60,7 @@ Stats NZ
 
 - NZ data from the [World mortality dataset](https://github.com/akarlinsky/world_mortality)
 
-### Wishlist
+## Wishlist
 
 - Ideally time series data from the MoH, but I understand they're very busy!
 - Failing that, complete snapshots (HTML) for MoH stats pages. Send me a message if you can help out with this!
