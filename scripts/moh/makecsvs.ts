@@ -4,7 +4,10 @@ import { parseJsonFile } from '../utils.ts';
 // import { get } from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';
 
 import { getJsonFilesInDir } from './common.ts';
-import { CASE_DEMOGRAPHICS_DIRECTORY_PATH } from './constants.ts';
+import {
+  CASE_DEMOGRAPHICS_DIRECTORY_PATH,
+  TIMESERIES_DATA_DIR,
+} from './constants.ts';
 
 type CsvInputValue = string | number | null | undefined;
 type CsvInputRow = { [key: string]: CsvInputValue };
@@ -24,7 +27,7 @@ interface CsvSetting {
 const CSV_SETTINGS: Array<CsvSetting> = [
   {
     table: ['Cases by sex', 'Number of cases by sex'],
-    destPath: 'community_cases_since_20210816_by_sex.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/community_cases_since_20210816_by_sex.csv`,
     by: 'sex',
     columns: [
       {
@@ -39,7 +42,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
   },
   {
     table: ['Cases by age group', 'Number of cases by age group'],
-    destPath: 'community_cases_since_20210816_by_age_group.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/community_cases_since_20210816_by_age_group.csv`,
     by: 'age_group',
     columns: [
       {
@@ -54,7 +57,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
   },
   {
     table: ['Cases by ethnicity', 'Number of cases by ethnicity'],
-    destPath: 'community_cases_since_20210816_by_ethnicity.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/community_cases_since_20210816_by_ethnicity.csv`,
     by: 'ethnicity',
     columns: [
       {
@@ -73,7 +76,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
       'Vaccination details of all August 2021 community cluster cases' /* Even earlier - e.g 2021-10-14 */,
       'Vaccination details are updated weekly on Mondays.',
     ],
-    destPath: 'community_cases_since_20210816_by_vaccination_status.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/community_cases_since_20210816_by_vaccination_status.csv`,
     by: 'vaccination_status',
     columns: [
       {
@@ -91,7 +94,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
   },
   {
     table: 'Total cases and tests by ethnicity',
-    destPath: 'total_cases_and_tests_by_ethnicity.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/total_cases_and_tests_by_ethnicity.csv`,
     by: 'ethnicity',
     columns: [
       {
@@ -106,7 +109,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
   },
   {
     table: 'Cases of COVID-19 by ethnicity',
-    destPath: 'total_cases_by_ethnicity.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/total_cases_by_ethnicity.csv`,
     by: 'ethnicity',
     columns: [
       {
@@ -129,7 +132,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
   },
   {
     table: 'COVID-19 cases by age group',
-    destPath: 'total_cases_by_age_group.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/total_cases_by_age_group.csv`,
     by: 'age_group',
     columns: [
       {
@@ -152,7 +155,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
   },
   {
     table: 'Total cases of COVID-19 by sex',
-    destPath: 'total_cases_by_sex.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/total_cases_by_sex.csv`,
     by: 'sex',
     columns: [
       {
@@ -178,7 +181,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
       'Cases who have been in hospital and in intensive care (ICU) by age',
       'Cases in hospital and in intensive care (ICU) by age',
     ],
-    destPath: 'total_hospital_and_icu_cases_by_age.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/total_hospital_and_icu_cases_by_age.csv`,
     by: 'age_group',
     columns: [
       {
@@ -196,7 +199,7 @@ const CSV_SETTINGS: Array<CsvSetting> = [
       'Cases who have been in hospital and in intensive care by sex',
       'Cases in hospital and in intensive care by sex',
     ],
-    destPath: 'total_hospital_and_icu_cases_by_sex.csv',
+    destPath: `${TIMESERIES_DATA_DIR}/total_hospital_and_icu_cases_by_sex.csv`,
     by: 'sex',
     columns: [
       {

@@ -20,3 +20,5 @@ export const CURENT_CASES_DIRECTORY_PATH = 'data/moh/covid-19-current-cases';
 export const SOURCE_CASES_DIRECTORY_PATH = 'data/moh/covid-19-source-cases';
 export const VACCINE_DATA_DIRECTORY_PATH = 'data/moh/covid-19-source-cases';
 export const TESTING_DIRECTORY_PATH = 'data/moh/testing-covid-19';
+
+export const TIMESERIES_DATA_DIR = 'data/moh/timeseries';

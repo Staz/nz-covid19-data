@@ -53,3 +53,5 @@ jobs:
         with:
           http_url: https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/vaccine-data/latest/doses_by_date.csv
           downloaded_filename: ./data/moh/doses_by_date.csv
+      - name: Create time series CSVs``
+        run: deno run --allow-all scripts/moh/makecsvs.ts
