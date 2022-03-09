@@ -2,6 +2,7 @@ import { dirname } from 'https://deno.land/std@0.126.0/path/mod.ts';
 import { writableStreamFromWriter } from 'https://deno.land/std@0.126.0/streams/mod.ts';
 import { getDataDateFromMohPage } from '../scripts/moh/common.ts';
 import { scrapeTablesFromHtml } from '../scripts/moh/common.ts';
+import { generateCsvFiles } from '../scripts/moh/lib/csv.ts';
 
 const downloadFile = async (url: string, destinationPath: string) => {
   const response = await fetch(url);
@@ -54,4 +55,10 @@ const outputHtmlFilePath = `./${dirname(inputFile)}/${date}.html`;
 Deno.writeTextFileSync(outputHtmlFilePath, html);
 
 scrapeTablesFromHtml(outputHtmlFilePath);
+
+if (inputFile.endsWith('covid-19-case-demographics.html')) {
+  console.log('Generating CSVs for MoH case demographic data');
+  await generateCsvFiles();
+}
+
 Deno.remove(inputFile);
