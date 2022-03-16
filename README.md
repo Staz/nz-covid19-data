@@ -17,18 +17,24 @@ Some gotchas I found when playing with [Github flat data](https://github.com/mar
 
 ![workflow](https://github.com/Staz/nz-covid19-data/actions/workflows/moh.yml/badge.svg)
 
+COVID-19 Case Details (downloaded from Case demographics page)
+ - [covid_cases.csv](/data/moh/covid_cases.csv)
+
+COVID-19 vaccination data (downloaded from Vaccine data page)
+ - [covid_vaccinations.xlsx](/data/moh/covid_vaccinations.xlsx)
+
 Time series data generated from the HTML Snapshots taken from [Ministry of Health COVID-19 stats pages](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics)
 
- - [community_cases_since_20210816_by_age_group.csv](/data/blob/main/data/moh/timeseries/community_cases_since_20210816_by_age_group.csv)
- - [community_cases_since_20210816_by_ethnicity.csv](/data/blob/main/data/moh/timeseries/community_cases_since_20210816_by_ethnicity.csv)
- - [community_cases_since_20210816_by_sex.csv](/data/blob/main/data/moh/timeseries/community_cases_since_20210816_by_sex.csv)
- - [community_cases_since_20210816_by_vaccination_status.csv](/data/blob/main/data/moh/timeseries/community_cases_since_20210816_by_vaccination_status.csv)
- - [total_cases_and_tests_by_ethnicity.csv](/data/blob/main/data/moh/timeseries/total_cases_and_tests_by_ethnicity.csv)
- - [total_cases_by_age_group.csv](/data/blob/main/data/moh/timeseries/total_cases_by_age_group.csv)
- - [total_cases_by_ethnicity.csv](/data/blob/main/data/moh/timeseries/total_cases_by_ethnicity.csv)
- - [total_cases_by_sex.csv](/data/blob/main/data/moh/timeseries/total_cases_by_sex.csv)
- - [total_hospital_and_icu_cases_by_age.csv](/data/blob/main/data/moh/timeseries/total_hospital_and_icu_cases_by_age.csv)
- - [total_hospital_and_icu_cases_by_sex.csv](/data/blob/main/data/moh/timeseries/total_hospital_and_icu_cases_by_sex.csv)
+ - [community_cases_since_20210816_by_age_group.csv](/data/moh/timeseries/community_cases_since_20210816_by_age_group.csv)
+ - [community_cases_since_20210816_by_ethnicity.csv](/data/moh/timeseries/community_cases_since_20210816_by_ethnicity.csv)
+ - [community_cases_since_20210816_by_sex.csv](/data/moh/timeseries/community_cases_since_20210816_by_sex.csv)
+ - [community_cases_since_20210816_by_vaccination_status.csv](/data/moh/timeseries/community_cases_since_20210816_by_vaccination_status.csv)
+ - [total_cases_and_tests_by_ethnicity.csv](/data/moh/timeseries/total_cases_and_tests_by_ethnicity.csv)
+ - [total_cases_by_age_group.csv](/data/moh/timeseries/total_cases_by_age_group.csv)
+ - [total_cases_by_ethnicity.csv](/data/moh/timeseries/total_cases_by_ethnicity.csv)
+ - [total_cases_by_sex.csv](/data/moh/timeseries/total_cases_by_sex.csv)
+ - [total_hospital_and_icu_cases_by_age.csv](data/moh/timeseries/total_hospital_and_icu_cases_by_age.csv)
+ - [total_hospital_and_icu_cases_by_sex.csv](/data/moh/timeseries/total_hospital_and_icu_cases_by_sex.csv)
 
 In the following folders you will find the HTML snaphots as well as JSON files resulting from scraping the tables. The files are named according to the date of the data on the page and **not** the date the page itself was updated. 
  
