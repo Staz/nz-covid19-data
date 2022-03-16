@@ -1,6 +1,6 @@
 Some gotchas I found when playing with [Github flat data](https://github.com/marketplace/actions/flat-data)
 
-- The directories in the `downloaded_filename` path must already exist. They aren't created by the action. I was forced to create empty directories (apart from a README.md)
+- The directories in the `downloaded_filename` path must already exist. They aren't created by the action. I was forced to create empty directories (apart from a `.gitkeep`)
 
 ## Current data updated daily
 
