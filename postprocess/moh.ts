@@ -26,7 +26,13 @@ const downloadFile = async (url: string, destinationPath: string) => {
 //system/files/documents/pages/covid_vaccinations_22_02_2022.xlsx
 const VACCINATION_DATA_URL_REGEX =
   /system\/files\/documents\/pages\/covid_vaccinations_.+\.xlsx/; // relative url
+
+const COVID_CASES_DATA_URL_REGEX =
+  /system\/files\/documents\/pages\/covid_cases_.+\.csv/; // relative url
+
 const VACCINATION_DATA_OUTPUT_FILE_PATH = './data/moh/covid_vaccinations.xlsx';
+const COVID_CASES_DATA_OUTPUT_FILE_PATH = './data/moh/covid_cases.csv';
+
 const MOH_BASE_URL = 'https://www.health.govt.nz';
 const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH:mm';
 
@@ -42,6 +48,16 @@ if (inputFile.endsWith('covid-19-vaccine-data.html')) {
     await downloadFile(url, VACCINATION_DATA_OUTPUT_FILE_PATH);
   } else {
     throw new Error('Link to vaccinations xlsx not found in page');
+  }
+} else if (inputFile.endsWith('covid-19-case-demographics.html')) {
+  /* Download latest covid cases csv */
+  const match = COVID_CASES_DATA_URL_REGEX.exec(html);
+
+  if (match) {
+    const url = `${MOH_BASE_URL}/${match[0]}`;
+    await downloadFile(url, COVID_CASES_DATA_OUTPUT_FILE_PATH);
+  } else {
+    throw new Error('Link to covid cases csv not found in page');
   }
 }
 
