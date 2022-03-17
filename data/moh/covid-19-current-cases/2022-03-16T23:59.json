@@ -1,0 +1,252 @@
+{
+  "Summary": {
+    "New cases reported during the past 24 hours": 19591,
+    "Active cases in past 10 days": {
+      "At the border": 207,
+      "In the community": 199640,
+      "Under investigation/other": 0,
+      "Total": 199847
+    },
+    "Most recent case reported": "16 March 2022",
+    "Most recent case reported due to community transmission (spread within our communities)": "16 March 2022"
+  },
+  "All case outcomes since first New Zealand case": {
+    "Active": {
+      "Change in last 24 hours": 2195,
+      "Total": 199847
+    },
+    "Recovered": {
+      "Change in last 24 hours": 17411,
+      "Total": 238495
+    },
+    "Deceased": {
+      "Change in last 24 hours": 10,
+      "Total": 135
+    }
+  },
+  "Number of active cases": {
+    "Confirmed": {
+      "Change in last 24 hours": 19589,
+      "Total at present": 199287,
+      "Total since first NZ case": 437414
+    },
+    "Probable": {
+      "Change in last 24 hours": 27,
+      "Total at present": 560,
+      "Total since first NZ case": 1063
+    },
+    "Total": {
+      "Change in last 24 hours": 19616,
+      "Total at present": 199847,
+      "Total since first NZ case": 438477
+    }
+  },
+  "Source of active cases": {
+    "People who travelled internationally and were diagnosed in managed facilities at the border": {
+      "Change in last 24 hours": 19,
+      "Total at present": 207
+    },
+    "People in close contact with someone who caught COVID-19 while overseas": {
+      "Change in last 24 hours": 0,
+      "Total at present": 0
+    },
+    "Caught COVID-19 from someone locally": {
+      "Change in last 24 hours": 5,
+      "Total at present": 357
+    },
+    "Caught COVID-19 within NZ, but source is unknown": {
+      "Change in last 24 hours": 0,
+      "Total at present": 6
+    },
+    "Under investigation": {
+      "Change in last 24 hours": 2171,
+      "Total at present": 199277
+    }
+  },
+  "Total cases by location": [
+    {
+      "Location": "Auckland",
+      "Active": 18396,
+      "Recovered": 38656,
+      "Deceased": 24,
+      "Total": 57076,
+      "Change in last 24 hours": 1339
+    },
+    {
+      "Location": "Bay of Plenty",
+      "Active": 13142,
+      "Recovered": 12486,
+      "Deceased": 9,
+      "Total": 25637,
+      "Change in last 24 hours": 1269
+    },
+    {
+      "Location": "Canterbury",
+      "Active": 21256,
+      "Recovered": 11089,
+      "Deceased": 13,
+      "Total": 32358,
+      "Change in last 24 hours": 2497
+    },
+    {
+      "Location": "Capital and Coast",
+      "Active": 15509,
+      "Recovered": 11648,
+      "Deceased": 2,
+      "Total": 27159,
+      "Change in last 24 hours": 1409
+    },
+    {
+      "Location": "Counties Manukau",
+      "Active": 26688,
+      "Recovered": 67021,
+      "Deceased": 25,
+      "Total": 93734,
+      "Change in last 24 hours": 1879
+    },
+    {
+      "Location": "Hawke's Bay",
+      "Active": 8243,
+      "Recovered": 2954,
+      "Deceased": 1,
+      "Total": 11198,
+      "Change in last 24 hours": 1095
+    },
+    {
+      "Location": "Hutt Valley",
+      "Active": 9420,
+      "Recovered": 4969,
+      "Deceased": 3,
+      "Total": 14392,
+      "Change in last 24 hours": 883
+    },
+    {
+      "Location": "Lakes",
+      "Active": 5627,
+      "Recovered": 4527,
+      "Deceased": 1,
+      "Total": 10155,
+      "Change in last 24 hours": 625
+    },
+    {
+      "Location": "Mid Central",
+      "Active": 6794,
+      "Recovered": 3408,
+      "Deceased": 4,
+      "Total": 10206,
+      "Change in last 24 hours": 813
+    },
+    {
+      "Location": "Nelson Marlborough",
+      "Active": 4487,
+      "Recovered": 3088,
+      "Deceased": 0,
+      "Total": 7575,
+      "Change in last 24 hours": 518
+    },
+    {
+      "Location": "Northland",
+      "Active": 6563,
+      "Recovered": 4575,
+      "Deceased": 3,
+      "Total": 11141,
+      "Change in last 24 hours": 702
+    },
+    {
+      "Location": "South Canterbury",
+      "Active": 1450,
+      "Recovered": 518,
+      "Deceased": 0,
+      "Total": 1968,
+      "Change in last 24 hours": 210
+    },
+    {
+      "Location": "Southern",
+      "Active": 9684,
+      "Recovered": 8555,
+      "Deceased": 4,
+      "Total": 18243,
+      "Change in last 24 hours": 1236
+    },
+    {
+      "Location": "Tairāwhiti",
+      "Active": 3548,
+      "Recovered": 1422,
+      "Deceased": 1,
+      "Total": 4971,
+      "Change in last 24 hours": 383
+    },
+    {
+      "Location": "Taranaki",
+      "Active": 5106,
+      "Recovered": 2244,
+      "Deceased": 0,
+      "Total": 7350,
+      "Change in last 24 hours": 659
+    },
+    {
+      "Location": "Unknown",
+      "Active": 141,
+      "Recovered": 37,
+      "Deceased": 0,
+      "Total": 178,
+      "Change in last 24 hours": 6
+    },
+    {
+      "Location": "Waikato",
+      "Active": 18623,
+      "Recovered": 20650,
+      "Deceased": 13,
+      "Total": 39286,
+      "Change in last 24 hours": 1822
+    },
+    {
+      "Location": "Wairarapa",
+      "Active": 1792,
+      "Recovered": 848,
+      "Deceased": 2,
+      "Total": 2642,
+      "Change in last 24 hours": 262
+    },
+    {
+      "Location": "Waitematā",
+      "Active": 20920,
+      "Recovered": 35504,
+      "Deceased": 27,
+      "Total": 56451,
+      "Change in last 24 hours": 1654
+    },
+    {
+      "Location": "West Coast",
+      "Active": 314,
+      "Recovered": 144,
+      "Deceased": 1,
+      "Total": 459,
+      "Change in last 24 hours": 60
+    },
+    {
+      "Location": "Whanganui",
+      "Active": 1937,
+      "Recovered": 693,
+      "Deceased": 0,
+      "Total": 2630,
+      "Change in last 24 hours": 267
+    },
+    {
+      "Location": "Managed Isolation & Quarantine",
+      "Active": 207,
+      "Recovered": 3459,
+      "Deceased": 2,
+      "Total": 3668,
+      "Change in last 24 hours": 28
+    },
+    {
+      "Location": "Total",
+      "Active": 199847,
+      "Recovered": 238495,
+      "Deceased": 135,
+      "Total": 438477,
+      "Change in last 24 hours": 19616
+    }
+  ]
+}
