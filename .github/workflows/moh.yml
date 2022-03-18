@@ -55,3 +55,13 @@ jobs:
         with:
           http_url: https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/vaccine-data/latest/doses_by_date.csv
           downloaded_filename: ./data/moh/doses_by_date.csv
+      - name: Fetch MOH COVID Cases data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/cases/covid-cases.csv
+          downloaded_filename: ./data/moh/covid-cases.csv
+      - name: Fetch MOH weekly deaths data
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/cases/weekly-deaths.csv
+          downloaded_filename: ./data/moh/weekly-deaths.csv

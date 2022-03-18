@@ -49,16 +49,6 @@ if (inputFile.endsWith('covid-19-vaccine-data.html')) {
   } else {
     throw new Error('Link to vaccinations xlsx not found in page');
   }
-} else if (inputFile.endsWith('covid-19-case-demographics.html')) {
-  /* Download latest covid cases csv */
-  const match = COVID_CASES_DATA_URL_REGEX.exec(html);
-
-  if (match) {
-    const url = `${MOH_BASE_URL}/${match[0]}`;
-    await downloadFile(url, COVID_CASES_DATA_OUTPUT_FILE_PATH);
-  } else {
-    throw new Error('Link to covid cases csv not found in page');
-  }
 }
 
 const date = getDataDateFromMohPage(html, OUTPUT_FILE_DATE_FORMAT);
