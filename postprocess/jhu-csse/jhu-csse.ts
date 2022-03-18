@@ -6,7 +6,7 @@ if (Deno.args[0].includes('deaths')) {
 }
 
 const bash_run = Deno.run({
-  cmd: [`./postprocess/${script}`].concat(Deno.args),
+  cmd: [`./postprocess/jhu-csse/${script}`].concat(Deno.args),
 });
 
 await bash_run.status();
