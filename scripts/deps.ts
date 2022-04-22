@@ -8,4 +8,4 @@
 export { default as cheerio } from 'https://esm.sh/cheerio@1.0.0-rc.10';
 
 export { default as dayjs } from 'https://cdn.skypack.dev/dayjs@1.10.7?dts';
-export { default as customParseFormat } from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat@1.10.7?dts';
+export { default as customParseFormat } from 'https://cdn.skypack.dev/dayjs@1.10.7/plugin/customParseFormat?dts';
