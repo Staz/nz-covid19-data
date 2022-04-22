@@ -6,3 +6,5 @@
  */
 
 export { default as cheerio } from 'https://esm.sh/cheerio@1.0.0-rc.10';
+
+export { default as dayjs } from 'https://deno.land/x/dayjs@v1.11.1/build/index.js';

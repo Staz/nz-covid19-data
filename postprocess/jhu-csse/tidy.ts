@@ -1,7 +1,7 @@
 /* Unfortunately I don't have types */
 import * as aq from 'https://cdn.jsdelivr.net/npm/arquero/+esm';
 
-import dayjs from 'https://cdn.skypack.dev/dayjs';
+import { dayjs } from '../../scripts/deps.ts';
 import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
 dayjs.extend(customParseFormat);
 
