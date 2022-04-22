@@ -1,6 +1,5 @@
 import { cheerio } from '../deps.ts';
-import { dayjs } from '../deps.ts';
-import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
+import { dayjs, customParseFormat } from '../deps.ts';
 
 dayjs.extend(customParseFormat);
 

@@ -1,8 +1,7 @@
 /* Unfortunately I don't have types */
 import * as aq from 'https://cdn.jsdelivr.net/npm/arquero/+esm';
 
-import { dayjs } from '../../scripts/deps.ts';
-import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
+import { dayjs, customParseFormat } from '../../scripts/deps.ts';
 dayjs.extend(customParseFormat);
 
 const CONFIRMED_CASES_DATA_PATH =
