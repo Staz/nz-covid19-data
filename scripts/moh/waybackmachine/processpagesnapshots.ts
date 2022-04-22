@@ -34,7 +34,7 @@ const processWaybackDirectory = (path: string, outputDir: string) => {
   for (const item of contents) {
     if (item.isDirectory) {
       processWaybackDirectory(join(path, item.name), outputDir);
-    } else if (item.name.endsWith('.html')) {
+    } else {
       processWaybackFile(join(path, item.name), outputDir);
     }
   }

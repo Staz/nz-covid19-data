@@ -21,6 +21,18 @@ export const getJsonFilesInDir = async (path: string) => {
   return jsons.sort();
 };
 
+export const getLatestDataDate = async (path: string) => {
+  const jsons = await getJsonFilesInDir(path);
+
+  if (!jsons.length) {
+    return null;
+  }
+
+  const latestFile = jsons[jsons.length - 1];
+  const dateString = latestFile.slice(0, latestFile.indexOf('.'));
+  return dateString;
+};
+
 export const getDataDateFromMohPage = (
   input: string,
   outputFormat: string

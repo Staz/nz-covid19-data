@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "moh:get-wayback": "scripts/moh/waybackmachine/getpagesnapshots.sh",
+    "moh:process-wayback": "deno run -A scripts/moh/waybackmachine/processpagesnapshots.ts temp/wayback/covid-19-case-demographics",
+    "moh:create-json": "deno run -A scripts/moh/mohpagetojson.ts data/moh/covid-19-case-demographics",
+    "moh:create-csv": "deno run -A scripts/moh/makecsvs.ts"
+  }
+}

@@ -1,5 +1,15 @@
 # https://github.com/stefanzweifel/git-auto-commit-action
 
+# Every 15 mins after 1pm:
+#   Job1:
+#     - if: not long enough since we wrote the last one (< 24hrs and before the next one)
+#       then: output = "SKIP"
+#     - if: latest page downloaded is not new
+#       then: output = "SKIP"
+#     - output = "PROCEED"
+#   Job2:
+#     - Only run if Job1.OUTPUT="PROCEED"
+
 name: Get MOH data
 on:
   schedule:

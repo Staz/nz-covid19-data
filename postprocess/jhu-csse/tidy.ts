@@ -1,5 +1,5 @@
 /* Unfortunately I don't have types */
-import * as aq from 'https://jspm.dev/arquero@4';
+import * as aq from 'https://cdn.jsdelivr.net/npm/arquero/+esm';
 
 import dayjs from 'https://cdn.skypack.dev/dayjs';
 import customParseFormat from 'https://cdn.skypack.dev/dayjs/plugin/customParseFormat';
