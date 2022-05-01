@@ -1,0 +1,252 @@
+{
+  "Summary": {
+    "New cases reported during the past 24 hours": 5718,
+    "Active cases in past 7 days": {
+      "At the border": 507,
+      "In the community": 51890,
+      "Under investigation/other": 0,
+      "Total": 52397
+    },
+    "Most recent case reported": "30 April 2022",
+    "Most recent case reported due to community transmission (spread within our communities)": "30 April 2022"
+  },
+  "All case outcomes since first New Zealand case": {
+    "Active": {
+      "Change in last 24 hours": 18,
+      "Total": 52397
+    },
+    "Recovered": {
+      "Change in last 24 hours": 5705,
+      "Total": 883593
+    },
+    "Deceased": {
+      "Change in last 24 hours": 5,
+      "Total": 707
+    }
+  },
+  "Number of active cases": {
+    "Confirmed": {
+      "Change in last 24 hours": 5702,
+      "Total at present": 51954,
+      "Total since first NZ case": 933464
+    },
+    "Probable": {
+      "Change in last 24 hours": 26,
+      "Total at present": 443,
+      "Total since first NZ case": 3233
+    },
+    "Total": {
+      "Change in last 24 hours": 5728,
+      "Total at present": 52397,
+      "Total since first NZ case": 936697
+    }
+  },
+  "Source of active cases": {
+    "People who travelled internationally and were diagnosed in managed facilities at the border": {
+      "Change in last 24 hours": 17,
+      "Total at present": 507
+    },
+    "People in close contact with someone who caught COVID-19 while overseas": {
+      "Change in last 24 hours": 0,
+      "Total at present": 0
+    },
+    "Caught COVID-19 from someone locally": {
+      "Change in last 24 hours": 8,
+      "Total at present": 266
+    },
+    "Caught COVID-19 within NZ, but source is unknown": {
+      "Change in last 24 hours": 0,
+      "Total at present": 0
+    },
+    "Under investigation": {
+      "Change in last 24 hours": -7,
+      "Total at present": 51624
+    }
+  },
+  "Total cases by location": [
+    {
+      "Location": "Auckland",
+      "Active": 4861,
+      "Recovered": 82254,
+      "Deceased": 59,
+      "Total": 87174,
+      "Change in last 24 hours": 605
+    },
+    {
+      "Location": "Bay of Plenty",
+      "Active": 1761,
+      "Recovered": 49168,
+      "Deceased": 46,
+      "Total": 50975,
+      "Change in last 24 hours": 177
+    },
+    {
+      "Location": "Canterbury",
+      "Active": 8931,
+      "Recovered": 105092,
+      "Deceased": 78,
+      "Total": 114101,
+      "Change in last 24 hours": 934
+    },
+    {
+      "Location": "Capital and Coast",
+      "Active": 3290,
+      "Recovered": 56121,
+      "Deceased": 34,
+      "Total": 59445,
+      "Change in last 24 hours": 363
+    },
+    {
+      "Location": "Counties Manukau",
+      "Active": 3781,
+      "Recovered": 122678,
+      "Deceased": 102,
+      "Total": 126561,
+      "Change in last 24 hours": 393
+    },
+    {
+      "Location": "Hawke's Bay",
+      "Active": 1605,
+      "Recovered": 32768,
+      "Deceased": 15,
+      "Total": 34388,
+      "Change in last 24 hours": 150
+    },
+    {
+      "Location": "Hutt Valley",
+      "Active": 1415,
+      "Recovered": 30588,
+      "Deceased": 27,
+      "Total": 32030,
+      "Change in last 24 hours": 148
+    },
+    {
+      "Location": "Lakes",
+      "Active": 922,
+      "Recovered": 20885,
+      "Deceased": 23,
+      "Total": 21830,
+      "Change in last 24 hours": 116
+    },
+    {
+      "Location": "Mid Central",
+      "Active": 1931,
+      "Recovered": 31605,
+      "Deceased": 28,
+      "Total": 33564,
+      "Change in last 24 hours": 202
+    },
+    {
+      "Location": "Nelson Marlborough",
+      "Active": 1912,
+      "Recovered": 23294,
+      "Deceased": 11,
+      "Total": 25217,
+      "Change in last 24 hours": 222
+    },
+    {
+      "Location": "Northland",
+      "Active": 1529,
+      "Recovered": 29576,
+      "Deceased": 23,
+      "Total": 31128,
+      "Change in last 24 hours": 137
+    },
+    {
+      "Location": "South Canterbury",
+      "Active": 1109,
+      "Recovered": 10222,
+      "Deceased": 6,
+      "Total": 11337,
+      "Change in last 24 hours": 118
+    },
+    {
+      "Location": "Southern",
+      "Active": 6265,
+      "Recovered": 60128,
+      "Deceased": 21,
+      "Total": 66414,
+      "Change in last 24 hours": 629
+    },
+    {
+      "Location": "Tairāwhiti",
+      "Active": 595,
+      "Recovered": 10778,
+      "Deceased": 6,
+      "Total": 11379,
+      "Change in last 24 hours": 98
+    },
+    {
+      "Location": "Taranaki",
+      "Active": 1326,
+      "Recovered": 22874,
+      "Deceased": 12,
+      "Total": 24212,
+      "Change in last 24 hours": 151
+    },
+    {
+      "Location": "Unknown",
+      "Active": 28,
+      "Recovered": 442,
+      "Deceased": 0,
+      "Total": 470,
+      "Change in last 24 hours": 6
+    },
+    {
+      "Location": "Waikato",
+      "Active": 3216,
+      "Recovered": 77517,
+      "Deceased": 96,
+      "Total": 80829,
+      "Change in last 24 hours": 342
+    },
+    {
+      "Location": "Wairarapa",
+      "Active": 549,
+      "Recovered": 7854,
+      "Deceased": 8,
+      "Total": 8411,
+      "Change in last 24 hours": 58
+    },
+    {
+      "Location": "Waitematā",
+      "Active": 5590,
+      "Recovered": 89945,
+      "Deceased": 90,
+      "Total": 95625,
+      "Change in last 24 hours": 676
+    },
+    {
+      "Location": "West Coast",
+      "Active": 624,
+      "Recovered": 3193,
+      "Deceased": 5,
+      "Total": 3822,
+      "Change in last 24 hours": 74
+    },
+    {
+      "Location": "Whanganui",
+      "Active": 650,
+      "Recovered": 11600,
+      "Deceased": 15,
+      "Total": 12265,
+      "Change in last 24 hours": 65
+    },
+    {
+      "Location": "At the Border",
+      "Active": 507,
+      "Recovered": 5011,
+      "Deceased": 2,
+      "Total": 5520,
+      "Change in last 24 hours": 64
+    },
+    {
+      "Location": "Total",
+      "Active": 52397,
+      "Recovered": 883593,
+      "Deceased": 707,
+      "Total": 936697,
+      "Change in last 24 hours": 5728
+    }
+  ]
+}
