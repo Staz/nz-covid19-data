@@ -1,0 +1,539 @@
+{
+  "Cases by sex": {
+    "Female": {
+      "Total cases": 608148,
+      "Percentage of all cases": "53%",
+      "Cases who have been hospitalised": 6360,
+      "Percentage of all hospitalised cases": "58%"
+    },
+    "Male": {
+      "Total cases": 535109,
+      "Percentage of all cases": "47%",
+      "Cases who have been hospitalised": 4659,
+      "Percentage of all hospitalised cases": "42%"
+    },
+    "Unknown": {
+      "Total cases": 1133,
+      "Percentage of all cases": "0%",
+      "Cases who have been hospitalised": 7,
+      "Percentage of all hospitalised cases": "0%"
+    },
+    "Total": {
+      "Total cases": 1144398,
+      "Percentage of all cases": "100%",
+      "Cases who have been hospitalised": 11026,
+      "Percentage of all hospitalised cases": "100%"
+    }
+  },
+  "Cases by age group": {
+    "0 to 9": {
+      "Total cases": 134104,
+      "Percentage of all cases": "12%",
+      "Cases who have been hospitalised": 792,
+      "Percentage of all hospitalised cases": "7%"
+    },
+    "10 to 19": {
+      "Total cases": 198087,
+      "Percentage of all cases": "17%",
+      "Cases who have been hospitalised": 629,
+      "Percentage of all hospitalised cases": "6%"
+    },
+    "20 to 29": {
+      "Total cases": 216386,
+      "Percentage of all cases": "19%",
+      "Cases who have been hospitalised": 1642,
+      "Percentage of all hospitalised cases": "15%"
+    },
+    "30 to 39": {
+      "Total cases": 201265,
+      "Percentage of all cases": "18%",
+      "Cases who have been hospitalised": 1795,
+      "Percentage of all hospitalised cases": "16%"
+    },
+    "40 to 49": {
+      "Total cases": 163591,
+      "Percentage of all cases": "14%",
+      "Cases who have been hospitalised": 1099,
+      "Percentage of all hospitalised cases": "10%"
+    },
+    "50 to 59": {
+      "Total cases": 116808,
+      "Percentage of all cases": "10%",
+      "Cases who have been hospitalised": 1263,
+      "Percentage of all hospitalised cases": "11%"
+    },
+    "60 to 69": {
+      "Total cases": 67777,
+      "Percentage of all cases": "6%",
+      "Cases who have been hospitalised": 1214,
+      "Percentage of all hospitalised cases": "11%"
+    },
+    "70+": {
+      "Total cases": 46378,
+      "Percentage of all cases": "4%",
+      "Cases who have been hospitalised": 2592,
+      "Percentage of all hospitalised cases": "24%"
+    },
+    "Unknown": {
+      "Total cases": 2,
+      "Percentage of all cases": "0%",
+      "Cases who have been hospitalised": 0,
+      "Percentage of all hospitalised cases": "0%"
+    },
+    "Total": {
+      "Total cases": 1144398,
+      "Percentage of all cases": "100%",
+      "Cases who have been hospitalised": 11026,
+      "Percentage of all hospitalised cases": "100%"
+    }
+  },
+  "Cases by ethnicity": {
+    "Māori": {
+      "Total cases": 201363,
+      "Percentage of all cases": "18%",
+      "Cases who have been hospitalised": 2492,
+      "Percentage of all hospitalised cases": "23%"
+    },
+    "Pacific peoples": {
+      "Total cases": 124607,
+      "Percentage of all cases": "11%",
+      "Cases who have been hospitalised": 3000,
+      "Percentage of all hospitalised cases": "27%"
+    },
+    "Asian": {
+      "Total cases": 155694,
+      "Percentage of all cases": "14%",
+      "Cases who have been hospitalised": 1214,
+      "Percentage of all hospitalised cases": "11%"
+    },
+    "Middle Eastern, Latin American and African (MELAA)": {
+      "Total cases": 22149,
+      "Percentage of all cases": "2%",
+      "Cases who have been hospitalised": 235,
+      "Percentage of all hospitalised cases": "2%"
+    },
+    "European or Other": {
+      "Total cases": 633107,
+      "Percentage of all cases": "55%",
+      "Cases who have been hospitalised": 4065,
+      "Percentage of all hospitalised cases": "37%"
+    },
+    "Unknown": {
+      "Total cases": 7478,
+      "Percentage of all cases": "1%",
+      "Cases who have been hospitalised": 20,
+      "Percentage of all hospitalised cases": "0%"
+    },
+    "Total": {
+      "Total cases": 1144398,
+      "Percentage of all cases": "100%",
+      "Cases who have been hospitalised": 11026,
+      "Percentage of all hospitalised cases": "100%"
+    }
+  },
+  "Vaccination details": {
+    "No doses received prior to being reported as a case": {
+      "Total cases": 45113,
+      "Cases who have been hospitalised": 1551
+    },
+    "Partially vaccinated": {
+      "Total cases": 13262,
+      "Cases who have been hospitalised": 358
+    },
+    "Fully vaccinated at least 7 days before reported as a case": {
+      "Total cases": 422420,
+      "Cases who have been hospitalised": 4176
+    },
+    "Received booster at least 7 days before being reported as a case": {
+      "Total cases": 490581,
+      "Cases who have been hospitalised": 4075
+    },
+    "Not eligible for vaccination at the time they were reported as a case": {
+      "Total cases": 173022,
+      "Cases who have been hospitalised": 866
+    },
+    "Total": {
+      "Total cases": 1144398,
+      "Cases who have been hospitalised": 11026
+    }
+  },
+  "Total cases and tests by ethnicity": {
+    "Māori": {
+      "Total cases since first NZ case": 201994,
+      "Total tests for COVID-19 to date": 1043784
+    },
+    "Pacific peoples": {
+      "Total cases since first NZ case": 125197,
+      "Total tests for COVID-19 to date": 859448
+    },
+    "Asian": {
+      "Total cases since first NZ case": 157941,
+      "Total tests for COVID-19 to date": 1184348
+    },
+    "European/other": {
+      "Total cases since first NZ case": 661049,
+      "Total tests for COVID-19 to date": 3777839
+    },
+    "Unknown": {
+      "Total cases since first NZ case": 7765,
+      "Total tests for COVID-19 to date": 317689
+    },
+    "Total": {
+      "Total cases since first NZ case": 1153946,
+      "Total tests for COVID-19 to date": 7183108
+    }
+  },
+  "Cases of COVID-19 by ethnicity": {
+    "Māori": {
+      "Active (confirmed and probable)": 4746,
+      "Recovered": 197086,
+      "Deceased": 162,
+      "Total cases since first case": 201994,
+      "Percentage of all cases": "17.5%"
+    },
+    "Pacific peoples": {
+      "Active (confirmed and probable)": 2053,
+      "Recovered": 123021,
+      "Deceased": 123,
+      "Total cases since first case": 125197,
+      "Percentage of all cases": "10.8%"
+    },
+    "Asian": {
+      "Active (confirmed and probable)": 6807,
+      "Recovered": 151090,
+      "Deceased": 44,
+      "Total cases since first case": 157941,
+      "Percentage of all cases": "13.7%"
+    },
+    "Middle Eastern, Latin American and African (MELAA)": {
+      "Active (confirmed and probable)": 894,
+      "Recovered": 21678,
+      "Deceased": 9,
+      "Total cases since first case": 22581,
+      "Percentage of all cases": "2%"
+    },
+    "European/other": {
+      "Active (confirmed and probable)": 33702,
+      "Recovered": 603994,
+      "Deceased": 772,
+      "Total cases since first case": 638468,
+      "Percentage of all cases": "55.3%"
+    },
+    "Unknown": {
+      "Active (confirmed and probable)": 418,
+      "Recovered": 7345,
+      "Deceased": 2,
+      "Total cases since first case": 7765,
+      "Percentage of all cases": "0.7%"
+    },
+    "Total": {
+      "Active (confirmed and probable)": 48620,
+      "Recovered": 1104214,
+      "Deceased": 1112,
+      "Total cases since first case": 1153946,
+      "Percentage of all cases": "100%"
+    }
+  },
+  "COVID-19 cases by age group": {
+    "0 to 9": {
+      "Active (confirmed and probable)": 4118,
+      "Recovered": 130621,
+      "Deceased": 4,
+      "Total cases": 134743,
+      "Percentage of all cases": "11.7%"
+    },
+    "10 to 19": {
+      "Active (confirmed and probable)": 6976,
+      "Recovered": 191858,
+      "Deceased": 4,
+      "Total cases": 198838,
+      "Percentage of all cases": "17.2%"
+    },
+    "20 to 29": {
+      "Active (confirmed and probable)": 6650,
+      "Recovered": 211492,
+      "Deceased": 7,
+      "Total cases": 218149,
+      "Percentage of all cases": "18.9%"
+    },
+    "30 to 39": {
+      "Active (confirmed and probable)": 7884,
+      "Recovered": 195456,
+      "Deceased": 15,
+      "Total cases": 203355,
+      "Percentage of all cases": "17.6%"
+    },
+    "40 to 49": {
+      "Active (confirmed and probable)": 8004,
+      "Recovered": 157057,
+      "Deceased": 34,
+      "Total cases": 165095,
+      "Percentage of all cases": "14.3%"
+    },
+    "50 to 59": {
+      "Active (confirmed and probable)": 6697,
+      "Recovered": 111514,
+      "Deceased": 62,
+      "Total cases": 118273,
+      "Percentage of all cases": "10.2%"
+    },
+    "60 to 69": {
+      "Active (confirmed and probable)": 4575,
+      "Recovered": 64028,
+      "Deceased": 117,
+      "Total cases": 68720,
+      "Percentage of all cases": "6%"
+    },
+    "70 to 79": {
+      "Active (confirmed and probable)": 2499,
+      "Recovered": 28800,
+      "Deceased": 246,
+      "Total cases": 31545,
+      "Percentage of all cases": "2.7%"
+    },
+    "80 to 89": {
+      "Active (confirmed and probable)": 979,
+      "Recovered": 10849,
+      "Deceased": 353,
+      "Total cases": 12181,
+      "Percentage of all cases": "1.1%"
+    },
+    "90+": {
+      "Active (confirmed and probable)": 238,
+      "Recovered": 2537,
+      "Deceased": 270,
+      "Total cases": 3045,
+      "Percentage of all cases": "0.3%"
+    },
+    "Unknown": {
+      "Active (confirmed and probable)": 0,
+      "Recovered": 2,
+      "Deceased": 0,
+      "Total cases": 2,
+      "Percentage of all cases": "0%"
+    },
+    "Total": {
+      "Active (confirmed and probable)": 48620,
+      "Recovered": 1104214,
+      "Deceased": 1112,
+      "Total cases": 1153946,
+      "Percentage of all cases": "100%"
+    }
+  },
+  "Total cases of COVID-19 by sex": {
+    "Female": {
+      "Active (confirmed and probable)": 26419,
+      "Recovered": 585982,
+      "Deceased": 517,
+      "Total cases": 612918,
+      "Percentage of all cases": "53%"
+    },
+    "Male": {
+      "Active (confirmed and probable)": 22143,
+      "Recovered": 517132,
+      "Deceased": 594,
+      "Total cases": 539869,
+      "Percentage of all cases": "47%"
+    },
+    "Unknown": {
+      "Active (confirmed and probable)": 58,
+      "Recovered": 1092,
+      "Deceased": 1,
+      "Total cases": 1151,
+      "Percentage of all cases": "0%"
+    },
+    "Total": {
+      "Active (confirmed and probable)": 48620,
+      "Recovered": 1104214,
+      "Deceased": 1112,
+      "Total cases": 1153946,
+      "Percentage of all cases": "100%"
+    }
+  },
+  "Cases who have been in hospital and in intensive care (ICU) by age": {
+    "0 to 9": {
+      "Total people hospitalised": 793,
+      "Total people in ICU": 4
+    },
+    "10 to 19": {
+      "Total people hospitalised": 633,
+      "Total people in ICU": 4
+    },
+    "20 to 29": {
+      "Total people hospitalised": 1651,
+      "Total people in ICU": 7
+    },
+    "30 to 39": {
+      "Total people hospitalised": 1820,
+      "Total people in ICU": 25
+    },
+    "40 to 49": {
+      "Total people hospitalised": 1122,
+      "Total people in ICU": 28
+    },
+    "50 to 59": {
+      "Total people hospitalised": 1305,
+      "Total people in ICU": 51
+    },
+    "60 to 69": {
+      "Total people hospitalised": 1246,
+      "Total people in ICU": 42
+    },
+    "70 to 79": {
+      "Total people hospitalised": 1261,
+      "Total people in ICU": 22
+    },
+    "80 to 89": {
+      "Total people hospitalised": 1012,
+      "Total people in ICU": 9
+    },
+    "90+": {
+      "Total people hospitalised": 355,
+      "Total people in ICU": 1
+    },
+    "Total": {
+      "Total people hospitalised": 11198,
+      "Total people in ICU": 193
+    }
+  },
+  "Cases who have been in hospital and in intensive care by sex": {
+    "Female": {
+      "Total people hospitalised": 6446,
+      "Total people in ICU": 71
+    },
+    "Male": {
+      "Total people hospitalised": 4745,
+      "Total people in ICU": 122
+    },
+    "Total": {
+      "Total people hospitalised": 11198,
+      "Total people in ICU": 193
+    }
+  },
+  "Age and ethnicity of deaths within 28 days of being reported as a case": {
+    "0 to 59": {
+      "Māori": 53,
+      "Pacific peoples": 21,
+      "Asian": 8,
+      "European or Other": 44,
+      "Total": 126
+    },
+    "60 to 69": {
+      "Māori": 37,
+      "Pacific peoples": 19,
+      "Asian": 6,
+      "European or Other": 54,
+      "Total": 117
+    },
+    "70 to 79": {
+      "Māori": 38,
+      "Pacific peoples": 25,
+      "Asian": 12,
+      "European or Other": 171,
+      "Total": 246
+    },
+    "80 to 89": {
+      "Māori": 23,
+      "Pacific peoples": 42,
+      "Asian": 11,
+      "European or Other": 276,
+      "Total": 353
+    },
+    "90+": {
+      "Māori": 11,
+      "Pacific peoples": 16,
+      "Asian": 7,
+      "European or Other": 236,
+      "Total": 270
+    },
+    "Total": {
+      "Māori": 162,
+      "Pacific peoples": 123,
+      "Asian": 44,
+      "European or Other": 781,
+      "Total": 1112
+    }
+  },
+  "Age and ethnicity of deaths where to COVID-19 officially coded as the underlying cause": {
+    "0 to 59": {
+      "Māori": 16,
+      "Pacific peoples": 8,
+      "Asian": 4,
+      "European or Other": 11,
+      "Total": 39
+    },
+    "60 to 69": {
+      "Māori": 16,
+      "Pacific peoples": 14,
+      "Asian": 2,
+      "European or Other": 15,
+      "Total": 47
+    },
+    "70 to 79": {
+      "Māori": 21,
+      "Pacific peoples": 10,
+      "Asian": 6,
+      "European or Other": 70,
+      "Total": 107
+    },
+    "80 to 89": {
+      "Māori": 14,
+      "Pacific peoples": 21,
+      "Asian": 4,
+      "European or Other": 130,
+      "Total": 169
+    },
+    "90+": {
+      "Māori": 6,
+      "Pacific peoples": 10,
+      "Asian": 6,
+      "European or Other": 112,
+      "Total": 134
+    },
+    "Total": {
+      "Māori": 73,
+      "Pacific peoples": 63,
+      "Asian": 22,
+      "European or Other": 338,
+      "Total": 496
+    }
+  },
+  "Age and vaccination status of deaths within 28 days of being reported as a case": {
+    "0 to 59": {
+      "Not fully vaccinated": 46,
+      "Fully vaccinated": 53,
+      "Received booster": 27,
+      "Total": 126
+    },
+    "60 to 69": {
+      "Not fully vaccinated": 26,
+      "Fully vaccinated": 40,
+      "Received booster": 51,
+      "Total": 117
+    },
+    "70 to 79": {
+      "Not fully vaccinated": 52,
+      "Fully vaccinated": 62,
+      "Received booster": 132,
+      "Total": 246
+    },
+    "80 to 89": {
+      "Not fully vaccinated": 60,
+      "Fully vaccinated": 77,
+      "Received booster": 216,
+      "Total": 353
+    },
+    "90+": {
+      "Not fully vaccinated": 55,
+      "Fully vaccinated": 54,
+      "Received booster": 161,
+      "Total": 270
+    },
+    "Total": {
+      "Not fully vaccinated": 239,
+      "Fully vaccinated": 286,
+      "Received booster": 587,
+      "Total": 1112
+    }
+  }
+}
