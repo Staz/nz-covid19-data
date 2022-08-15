@@ -67,4 +67,4 @@ if (inputFile.endsWith('covid-19-case-demographics.html')) {
   await generateCsvFiles();
 }
 
-Deno.remove(inputFile);
+// Deno.remove(inputFile);
