@@ -1,0 +1,565 @@
+{
+  "Total Vaccinations 12+": {
+    "First dose": {
+      "Vaccinations yesterday": 33,
+      "Cumulative total": 4029349,
+      "Vaccinated or booked": 4029956
+    },
+    "Second dose": {
+      "Vaccinations yesterday": 32,
+      "Cumulative total": 3982211,
+      "Vaccinated or booked": 3982392
+    },
+    "Third primary": {
+      "Vaccinations yesterday": 9,
+      "Cumulative total": 34051
+    },
+    "Boosters": {
+      "Vaccinations yesterday": 10805,
+      "Cumulative total": 3065167
+    },
+    "Total doses": {
+      "Vaccinations yesterday": 10879,
+      "Cumulative total": 11110778
+    }
+  },
+  "Total Vaccinations 5-11": {
+    "First dose": {
+      "Vaccinations yesterday": 37,
+      "Cumulative total": 266136
+    },
+    "Second dose": {
+      "Vaccinations yesterday": 114,
+      "Cumulative total": 145565
+    }
+  },
+  "Vaccinations uptake by ethnicity": {
+    "Māori": {
+      "12+ Partially vaccinated": 522229,
+      "12+ Fully vaccinated": 505641,
+      "18+ Boosted": 243832,
+      "12+ Population": 571052,
+      "5-11 Partially vaccinated": 41345,
+      "5-11 Fully vaccinated": 16686,
+      "5-11 Population": 115562
+    },
+    "Pacific Peoples": {
+      "12+ Partially vaccinated": 283064,
+      "12+ Fully vaccinated": 278310,
+      "18+ Boosted": 148133,
+      "12+ Population": 286681,
+      "5-11 Partially vaccinated": 24056,
+      "5-11 Fully vaccinated": 9534,
+      "5-11 Population": 49398
+    },
+    "Asian": {
+      "12+ Partially vaccinated": 643626,
+      "12+ Fully vaccinated": 639671,
+      "18+ Boosted": 439702,
+      "12+ Population": 598618,
+      "5-11 Partially vaccinated": 59969,
+      "5-11 Fully vaccinated": 36755,
+      "5-11 Population": 75925
+    },
+    "European / Other": {
+      "12+ Partially vaccinated": 2563031,
+      "12+ Fully vaccinated": 2541305,
+      "18+ Boosted": 1823232,
+      "12+ Population": 2730829,
+      "5-11 Partially vaccinated": 135176,
+      "5-11 Fully vaccinated": 77414,
+      "5-11 Population": 235026
+    },
+    "Unknown": {
+      "12+ Partially vaccinated": 41263,
+      "12+ Fully vaccinated": 40185,
+      "18+ Boosted": 24955,
+      "12+ Population": "-",
+      "5-11 Partially vaccinated": 1099,
+      "5-11 Fully vaccinated": 657,
+      "5-11 Population": "-"
+    },
+    "Total": {
+      "12+ Partially vaccinated": 4053213,
+      "12+ Fully vaccinated": 4005112,
+      "18+ Boosted": 2679854,
+      "12+ Population": 4209057,
+      "5-11 Partially vaccinated": 261645,
+      "5-11 Fully vaccinated": 141046,
+      "5-11 Population": 476294
+    }
+  },
+  "All Ethnicities": {
+    "Northland": {
+      "At least partially vacc": 6961,
+      "At least partially vacc %": "35.7%",
+      "Fully vacc": 2851,
+      "Fully vacc %": "14.6%",
+      "Population": 19480
+    },
+    "Waitemata": {
+      "At least partially vacc": 37934,
+      "At least partially vacc %": "61.3%",
+      "Fully vacc": 21747,
+      "Fully vacc %": "35.1%",
+      "Population": 61881
+    },
+    "Auckland": {
+      "At least partially vacc": 26693,
+      "At least partially vacc %": "65.3%",
+      "Fully vacc": 16688,
+      "Fully vacc %": "40.8%",
+      "Population": 40861
+    },
+    "Counties Manukau": {
+      "At least partially vacc": 36594,
+      "At least partially vacc %": "56.0%",
+      "Fully vacc": 18984,
+      "Fully vacc %": "29.0%",
+      "Population": 65365
+    },
+    "Waikato": {
+      "At least partially vacc": 20619,
+      "At least partially vacc %": "47.3%",
+      "Fully vacc": 9610,
+      "Fully vacc %": "22.0%",
+      "Population": 43635
+    },
+    "Lakes": {
+      "At least partially vacc": 4874,
+      "At least partially vacc %": "40.6%",
+      "Fully vacc": 2157,
+      "Fully vacc %": "18.0%",
+      "Population": 11998
+    },
+    "Bay of Plenty": {
+      "At least partially vacc": 10612,
+      "At least partially vacc %": "41.9%",
+      "Fully vacc": 4358,
+      "Fully vacc %": "17.2%",
+      "Population": 25345
+    },
+    "Tairawhiti": {
+      "At least partially vacc": 2816,
+      "At least partially vacc %": "49.9%",
+      "Fully vacc": 1479,
+      "Fully vacc %": "26.2%",
+      "Population": 5647
+    },
+    "Taranaki": {
+      "At least partially vacc": 5875,
+      "At least partially vacc %": "46.1%",
+      "Fully vacc": 3073,
+      "Fully vacc %": "24.1%",
+      "Population": 12748
+    },
+    "Hawkes Bay": {
+      "At least partially vacc": 8165,
+      "At least partially vacc %": "46.0%",
+      "Fully vacc": 3532,
+      "Fully vacc %": "19.9%",
+      "Population": 17749
+    },
+    "MidCentral": {
+      "At least partially vacc": 9136,
+      "At least partially vacc %": "51.6%",
+      "Fully vacc": 4710,
+      "Fully vacc %": "26.6%",
+      "Population": 17720
+    },
+    "Whanganui": {
+      "At least partially vacc": 2735,
+      "At least partially vacc %": "41.5%",
+      "Fully vacc": 1337,
+      "Fully vacc %": "20.3%",
+      "Population": 6588
+    },
+    "Capital and Coast": {
+      "At least partially vacc": 18447,
+      "At least partially vacc %": "68.2%",
+      "Fully vacc": 12190,
+      "Fully vacc %": "45.1%",
+      "Population": 27051
+    },
+    "Hutt Valley": {
+      "At least partially vacc": 9549,
+      "At least partially vacc %": "64.1%",
+      "Fully vacc": 5572,
+      "Fully vacc %": "37.4%",
+      "Population": 14890
+    },
+    "Wairarapa": {
+      "At least partially vacc": 2235,
+      "At least partially vacc %": "52.0%",
+      "Fully vacc": 1002,
+      "Fully vacc %": "23.3%",
+      "Population": 4294
+    },
+    "Nelson Marlborough": {
+      "At least partially vacc": 7247,
+      "At least partially vacc %": "53.2%",
+      "Fully vacc": 3667,
+      "Fully vacc %": "26.9%",
+      "Population": 13612
+    },
+    "West Coast": {
+      "At least partially vacc": 1236,
+      "At least partially vacc %": "45.2%",
+      "Fully vacc": 635,
+      "Fully vacc %": "23.2%",
+      "Population": 2733
+    },
+    "Canterbury": {
+      "At least partially vacc": 30897,
+      "At least partially vacc %": "62.0%",
+      "Fully vacc": 17520,
+      "Fully vacc %": "35.2%",
+      "Population": 49808
+    },
+    "South Canterbury": {
+      "At least partially vacc": 2804,
+      "At least partially vacc %": "52.9%",
+      "Fully vacc": 1292,
+      "Fully vacc %": "24.4%",
+      "Population": 5298
+    },
+    "Southern": {
+      "At least partially vacc": 16138,
+      "At least partially vacc %": "55.8%",
+      "Fully vacc": 8606,
+      "Fully vacc %": "29.7%",
+      "Population": 28939
+    },
+    "Overseas / Unknown": {
+      "At least partially vacc": 78,
+      "At least partially vacc %": "12.0%",
+      "Fully vacc": 36,
+      "Fully vacc %": "5.5%",
+      "Population": 652
+    },
+    "Total": {
+      "At least partially vacc": 261645,
+      "At least partially vacc %": "54.9%",
+      "Fully vacc": 141046,
+      "Fully vacc %": "29.6%",
+      "Population": 476294
+    }
+  },
+  "Māori": {
+    "Northland": {
+      "At least partially vacc": 2843,
+      "At least partially vacc %": "27.1%",
+      "Fully vacc": 871,
+      "Fully vacc %": "8.3%",
+      "Population": 10478
+    },
+    "Waitemata": {
+      "At least partially vacc": 3514,
+      "At least partially vacc %": "41.2%",
+      "Fully vacc": 1606,
+      "Fully vacc %": "18.8%",
+      "Population": 8520
+    },
+    "Auckland": {
+      "At least partially vacc": 1994,
+      "At least partially vacc %": "46.1%",
+      "Fully vacc": 1049,
+      "Fully vacc %": "24.3%",
+      "Population": 4322
+    },
+    "Counties Manukau": {
+      "At least partially vacc": 4587,
+      "At least partially vacc %": "33.6%",
+      "Fully vacc": 1742,
+      "Fully vacc %": "12.8%",
+      "Population": 13654
+    },
+    "Waikato": {
+      "At least partially vacc": 4605,
+      "At least partially vacc %": "32.1%",
+      "Fully vacc": 1635,
+      "Fully vacc %": "11.4%",
+      "Population": 14353
+    },
+    "Lakes": {
+      "At least partially vacc": 1668,
+      "At least partially vacc %": "28.6%",
+      "Fully vacc": 600,
+      "Fully vacc %": "10.3%",
+      "Population": 5837
+    },
+    "Bay of Plenty": {
+      "At least partially vacc": 2597,
+      "At least partially vacc %": "26.9%",
+      "Fully vacc": 834,
+      "Fully vacc %": "8.6%",
+      "Population": 9663
+    },
+    "Tairawhiti": {
+      "At least partially vacc": 1652,
+      "At least partially vacc %": "46.1%",
+      "Fully vacc": 794,
+      "Fully vacc %": "22.1%",
+      "Population": 3586
+    },
+    "Taranaki": {
+      "At least partially vacc": 1237,
+      "At least partially vacc %": "31.8%",
+      "Fully vacc": 504,
+      "Fully vacc %": "13.0%",
+      "Population": 3891
+    },
+    "Hawkes Bay": {
+      "At least partially vacc": 2315,
+      "At least partially vacc %": "32.6%",
+      "Fully vacc": 729,
+      "Fully vacc %": "10.3%",
+      "Population": 7110
+    },
+    "MidCentral": {
+      "At least partially vacc": 2043,
+      "At least partially vacc %": "37.7%",
+      "Fully vacc": 837,
+      "Fully vacc %": "15.5%",
+      "Population": 5415
+    },
+    "Whanganui": {
+      "At least partially vacc": 803,
+      "At least partially vacc %": "29.7%",
+      "Fully vacc": 308,
+      "Fully vacc %": "11.4%",
+      "Population": 2707
+    },
+    "Capital and Coast": {
+      "At least partially vacc": 2360,
+      "At least partially vacc %": "50.5%",
+      "Fully vacc": 1210,
+      "Fully vacc %": "25.9%",
+      "Population": 4676
+    },
+    "Hutt Valley": {
+      "At least partially vacc": 1697,
+      "At least partially vacc %": "46.2%",
+      "Fully vacc": 742,
+      "Fully vacc %": "20.2%",
+      "Population": 3674
+    },
+    "Wairarapa": {
+      "At least partially vacc": 480,
+      "At least partially vacc %": "36.8%",
+      "Fully vacc": 165,
+      "Fully vacc %": "12.7%",
+      "Population": 1304
+    },
+    "Nelson Marlborough": {
+      "At least partially vacc": 972,
+      "At least partially vacc %": "39.6%",
+      "Fully vacc": 367,
+      "Fully vacc %": "14.9%",
+      "Population": 2457
+    },
+    "West Coast": {
+      "At least partially vacc": 217,
+      "At least partially vacc %": "39.6%",
+      "Fully vacc": 94,
+      "Fully vacc %": "17.2%",
+      "Population": 548
+    },
+    "Canterbury": {
+      "At least partially vacc": 3378,
+      "At least partially vacc %": "45.0%",
+      "Fully vacc": 1558,
+      "Fully vacc %": "20.8%",
+      "Population": 7502
+    },
+    "South Canterbury": {
+      "At least partially vacc": 326,
+      "At least partially vacc %": "41.4%",
+      "Fully vacc": 104,
+      "Fully vacc %": "13.2%",
+      "Population": 788
+    },
+    "Southern": {
+      "At least partially vacc": 2044,
+      "At least partially vacc %": "41.6%",
+      "Fully vacc": 931,
+      "Fully vacc %": "18.9%",
+      "Population": 4918
+    },
+    "Overseas / Unknown": {
+      "At least partially vacc": 13,
+      "At least partially vacc %": "8.2%",
+      "Fully vacc": 6,
+      "Fully vacc %": "<5%",
+      "Population": 159
+    },
+    "Total": {
+      "At least partially vacc": 41345,
+      "At least partially vacc %": "35.8%",
+      "Fully vacc": 16686,
+      "Fully vacc %": "14.4%",
+      "Population": 115562
+    }
+  },
+  "Pacific Peoples": {
+    "Northland": {
+      "At least partially vacc": 222,
+      "At least partially vacc %": "38.1%",
+      "Fully vacc": 86,
+      "Fully vacc %": "14.8%",
+      "Population": 582
+    },
+    "Waitemata": {
+      "At least partially vacc": 3080,
+      "At least partially vacc %": "47.4%",
+      "Fully vacc": 1215,
+      "Fully vacc %": "18.7%",
+      "Population": 6497
+    },
+    "Auckland": {
+      "At least partially vacc": 3379,
+      "At least partially vacc %": "46.6%",
+      "Fully vacc": 1445,
+      "Fully vacc %": "19.9%",
+      "Population": 7257
+    },
+    "Counties Manukau": {
+      "At least partially vacc": 9934,
+      "At least partially vacc %": "48.5%",
+      "Fully vacc": 3934,
+      "Fully vacc %": "19.2%",
+      "Population": 20488
+    },
+    "Waikato": {
+      "At least partially vacc": 961,
+      "At least partially vacc %": "49.3%",
+      "Fully vacc": 380,
+      "Fully vacc %": "19.5%",
+      "Population": 1950
+    },
+    "Lakes": {
+      "At least partially vacc": 182,
+      "At least partially vacc %": "44.9%",
+      "Fully vacc": 83,
+      "Fully vacc %": "20.5%",
+      "Population": 405
+    },
+    "Bay of Plenty": {
+      "At least partially vacc": 301,
+      "At least partially vacc %": "43.2%",
+      "Fully vacc": 93,
+      "Fully vacc %": "13.4%",
+      "Population": 696
+    },
+    "Tairawhiti": {
+      "At least partially vacc": 88,
+      "At least partially vacc %": "68.8%",
+      "Fully vacc": 26,
+      "Fully vacc %": "20.3%",
+      "Population": 128
+    },
+    "Taranaki": {
+      "At least partially vacc": 108,
+      "At least partially vacc %": "41.5%",
+      "Fully vacc": 44,
+      "Fully vacc %": "16.9%",
+      "Population": 260
+    },
+    "Hawkes Bay": {
+      "At least partially vacc": 461,
+      "At least partially vacc %": "46.4%",
+      "Fully vacc": 149,
+      "Fully vacc %": "15.0%",
+      "Population": 994
+    },
+    "MidCentral": {
+      "At least partially vacc": 448,
+      "At least partially vacc %": "48.1%",
+      "Fully vacc": 198,
+      "Fully vacc %": "21.2%",
+      "Population": 932
+    },
+    "Whanganui": {
+      "At least partially vacc": 106,
+      "At least partially vacc %": "38.3%",
+      "Fully vacc": 39,
+      "Fully vacc %": "14.1%",
+      "Population": 277
+    },
+    "Capital and Coast": {
+      "At least partially vacc": 1477,
+      "At least partially vacc %": "52.3%",
+      "Fully vacc": 614,
+      "Fully vacc %": "21.8%",
+      "Population": 2822
+    },
+    "Hutt Valley": {
+      "At least partially vacc": 834,
+      "At least partially vacc %": "54.8%",
+      "Fully vacc": 339,
+      "Fully vacc %": "22.3%",
+      "Population": 1521
+    },
+    "Wairarapa": {
+      "At least partially vacc": 80,
+      "At least partially vacc %": "56.7%",
+      "Fully vacc": 24,
+      "Fully vacc %": "17.0%",
+      "Population": 141
+    },
+    "Nelson Marlborough": {
+      "At least partially vacc": 260,
+      "At least partially vacc %": "54.5%",
+      "Fully vacc": 84,
+      "Fully vacc %": "17.6%",
+      "Population": 477
+    },
+    "West Coast": {
+      "At least partially vacc": 24,
+      "At least partially vacc %": "42.9%",
+      "Fully vacc": 8,
+      "Fully vacc %": "14.3%",
+      "Population": 56
+    },
+    "Canterbury": {
+      "At least partially vacc": 1305,
+      "At least partially vacc %": "53.4%",
+      "Fully vacc": 487,
+      "Fully vacc %": "19.9%",
+      "Population": 2442
+    },
+    "South Canterbury": {
+      "At least partially vacc": 153,
+      "At least partially vacc %": "72.5%",
+      "Fully vacc": 42,
+      "Fully vacc %": "19.9%",
+      "Population": 211
+    },
+    "Southern": {
+      "At least partially vacc": 644,
+      "At least partially vacc %": "55.0%",
+      "Fully vacc": 242,
+      "Fully vacc %": "20.7%",
+      "Population": 1171
+    },
+    "Overseas / Unknown": {
+      "At least partially vacc": 9,
+      "At least partially vacc %": "9.9%",
+      "Fully vacc": "<5",
+      "Fully vacc %": "<5%",
+      "Population": 91
+    },
+    "Total": {
+      "At least partially vacc": 24056,
+      "At least partially vacc %": "48.7%",
+      "Fully vacc": 9534,
+      "Fully vacc %": "19.3%",
+      "Population": 49398
+    }
+  },
+  "Wastage of vaccine stock": {
+    "New Zealand": {
+      "Wastage": "4.07%"
+    }
+  }
+}

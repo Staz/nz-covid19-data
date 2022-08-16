@@ -28,7 +28,7 @@ if (isDirectory(inputPath)) {
 
   for (const item of directoryContents) {
     const itemPath = join(inputPath, item.name);
-    if (item.name.endsWith('.html')) {
+    if (/^\d{4}.*\.html/.test(item.name)) {
       scrapeTablesFromHtml(itemPath);
       console.log('-------------');
     }

@@ -1,0 +1,704 @@
+{
+  "COVID-19 viral testing": {
+    "People who travelled internationally": {
+      "Test results delivered in past 24 hours": 0,
+      "Test results delivered during past week": 0
+    },
+    "People working at the border, in managed facilities, or near people travelling internationally": {
+      "Test results delivered in past 24 hours": 4,
+      "Test results delivered during past week": 22
+    },
+    "Within New Zealand, not linked to the border": {
+      "Test results delivered in past 24 hours": 3377,
+      "Test results delivered during past week": 22927
+    },
+    "Other": {
+      "Test results delivered in past 24 hours": 0,
+      "Test results delivered during past week": 0
+    },
+    "Total": {
+      "Test results delivered in past 24 hours": 3381,
+      "Test results delivered during past week": 22949
+    }
+  },
+  "COVID-19 testing status": {
+    "All COVID-19 viral tests administered": {
+      "Total": 7406030
+    },
+    "Testing kits in stock (updated weekdays only)": {
+      "Total": 21286
+    }
+  },
+  "Testing results from 22 January 2020* to 5 August 2022": {
+    "Tested positive for COVID-19": {
+      "In managed facilities": 3826,
+      "Within NZ communities": 170862,
+      "Total": 174688
+    },
+    "Tested negative (no COVID-19)": {
+      "In managed facilities": 236714,
+      "Within NZ communities": 6943687,
+      "Total": 7180401
+    },
+    "Inconclusive result for COVID-19": {
+      "In managed facilities": 190,
+      "Within NZ communities": 50751,
+      "Total": 50941
+    },
+    "Total (all tests)": {
+      "In managed facilities": 240730,
+      "Within NZ communities": 7165300,
+      "Total": 7406030
+    }
+  },
+  "Tests at managed facilities and within the community in health districts": {
+    "Auckland": {
+      "5 Jul to 10 Jul": 3476,
+      "12 Jul to 17 Jul": 3156,
+      "19 Jul to 24 Jul": 3224,
+      "26 Jul to 31 Jul": 3081
+    },
+    "Bay of Plenty": {
+      "5 Jul to 10 Jul": 674,
+      "12 Jul to 17 Jul": 618,
+      "19 Jul to 24 Jul": 602,
+      "26 Jul to 31 Jul": 573
+    },
+    "Canterbury/West Coast": {
+      "5 Jul to 10 Jul": 2521,
+      "12 Jul to 17 Jul": 2724,
+      "19 Jul to 24 Jul": 2601,
+      "26 Jul to 31 Jul": 2644
+    },
+    "Capital & Coast/Hutt": {
+      "5 Jul to 10 Jul": 2008,
+      "12 Jul to 17 Jul": 1918,
+      "19 Jul to 24 Jul": 1975,
+      "26 Jul to 31 Jul": 1988
+    },
+    "Counties Manukau": {
+      "5 Jul to 10 Jul": 2587,
+      "12 Jul to 17 Jul": 2701,
+      "19 Jul to 24 Jul": 2791,
+      "26 Jul to 31 Jul": 2736
+    },
+    "Hawkes Bay": {
+      "5 Jul to 10 Jul": 318,
+      "12 Jul to 17 Jul": 360,
+      "19 Jul to 24 Jul": 389,
+      "26 Jul to 31 Jul": 333
+    },
+    "Lakes": {
+      "5 Jul to 10 Jul": 234,
+      "12 Jul to 17 Jul": 226,
+      "19 Jul to 24 Jul": 207,
+      "26 Jul to 31 Jul": 237
+    },
+    "MidCentral": {
+      "5 Jul to 10 Jul": 411,
+      "12 Jul to 17 Jul": 461,
+      "19 Jul to 24 Jul": 535,
+      "26 Jul to 31 Jul": 495
+    },
+    "Nelson Marlborough": {
+      "5 Jul to 10 Jul": 367,
+      "12 Jul to 17 Jul": 280,
+      "19 Jul to 24 Jul": 292,
+      "26 Jul to 31 Jul": 632
+    },
+    "Northland": {
+      "5 Jul to 10 Jul": 439,
+      "12 Jul to 17 Jul": 432,
+      "19 Jul to 24 Jul": 358,
+      "26 Jul to 31 Jul": 354
+    },
+    "South Canterbury": {
+      "5 Jul to 10 Jul": 153,
+      "12 Jul to 17 Jul": 173,
+      "19 Jul to 24 Jul": 149,
+      "26 Jul to 31 Jul": 2530
+    },
+    "Southern": {
+      "5 Jul to 10 Jul": 2202,
+      "12 Jul to 17 Jul": 2232,
+      "19 Jul to 24 Jul": 2191,
+      "26 Jul to 31 Jul": 2217
+    },
+    "Tairawhiti": {
+      "5 Jul to 10 Jul": 58,
+      "12 Jul to 17 Jul": 51,
+      "19 Jul to 24 Jul": 55,
+      "26 Jul to 31 Jul": 58
+    },
+    "Taranaki": {
+      "5 Jul to 10 Jul": 759,
+      "12 Jul to 17 Jul": 746,
+      "19 Jul to 24 Jul": 642,
+      "26 Jul to 31 Jul": 701
+    },
+    "Waikato": {
+      "5 Jul to 10 Jul": 1593,
+      "12 Jul to 17 Jul": 1632,
+      "19 Jul to 24 Jul": 2094,
+      "26 Jul to 31 Jul": 3877
+    },
+    "Wairarapa": {
+      "5 Jul to 10 Jul": 139,
+      "12 Jul to 17 Jul": 135,
+      "19 Jul to 24 Jul": 146,
+      "26 Jul to 31 Jul": 170
+    },
+    "Waitemata": {
+      "5 Jul to 10 Jul": 2869,
+      "12 Jul to 17 Jul": 2825,
+      "19 Jul to 24 Jul": 2890,
+      "26 Jul to 31 Jul": 2697
+    },
+    "Whanganui": {
+      "5 Jul to 10 Jul": 79,
+      "12 Jul to 17 Jul": 97,
+      "19 Jul to 24 Jul": 95,
+      "26 Jul to 31 Jul": 92
+    },
+    "Unknown": {
+      "5 Jul to 10 Jul": 2304,
+      "12 Jul to 17 Jul": 2434,
+      "19 Jul to 24 Jul": 2930,
+      "26 Jul to 31 Jul": 3026
+    },
+    "Total": {
+      "5 Jul to 10 Jul": 23191,
+      "12 Jul to 17 Jul": 23201,
+      "19 Jul to 24 Jul": 24166,
+      "26 Jul to 31 Jul": 28441
+    }
+  },
+  "Tests by ethnicity": {
+    "Māori": {
+      "5 Jul to 10 Jul": 2788,
+      "12 Jul to 17 Jul": 2904,
+      "19 Jul to 24 Jul": 2787,
+      "26 Jul to 31 Jul": 3708
+    },
+    "Pacific Peoples": {
+      "5 Jul to 10 Jul": 1695,
+      "12 Jul to 17 Jul": 1661,
+      "19 Jul to 24 Jul": 1774,
+      "26 Jul to 31 Jul": 1889
+    },
+    "Asian": {
+      "5 Jul to 10 Jul": 3480,
+      "12 Jul to 17 Jul": 3503,
+      "19 Jul to 24 Jul": 3558,
+      "26 Jul to 31 Jul": 3567
+    },
+    "European or Other": {
+      "5 Jul to 10 Jul": 12817,
+      "12 Jul to 17 Jul": 12562,
+      "19 Jul to 24 Jul": 12984,
+      "26 Jul to 31 Jul": 16129
+    },
+    "Unknown": {
+      "5 Jul to 10 Jul": 2411,
+      "12 Jul to 17 Jul": 2571,
+      "19 Jul to 24 Jul": 3063,
+      "26 Jul to 31 Jul": 3148
+    },
+    "Total": {
+      "5 Jul to 10 Jul": 23191,
+      "12 Jul to 17 Jul": 23201,
+      "19 Jul to 24 Jul": 24166,
+      "26 Jul to 31 Jul": 28441
+    }
+  },
+  "Tests at the border and in managed isolation and quarantine": {
+    "Tested positive": {
+      "5 Jul to 10 Jul": 0,
+      "12 Jul to 17 Jul": 0,
+      "19 Jul to 24 Jul": 0,
+      "26 Jul to 31 Jul": 0
+    },
+    "Tested negative (no COVID-19)": {
+      "5 Jul to 10 Jul": 0,
+      "12 Jul to 17 Jul": 0,
+      "19 Jul to 24 Jul": 0,
+      "26 Jul to 31 Jul": 0
+    },
+    "Inconclusive result": {
+      "5 Jul to 10 Jul": 0,
+      "12 Jul to 17 Jul": 0,
+      "19 Jul to 24 Jul": 0,
+      "26 Jul to 31 Jul": 0
+    },
+    "Total": {
+      "5 Jul to 10 Jul": 0,
+      "12 Jul to 17 Jul": 0,
+      "19 Jul to 24 Jul": 0,
+      "26 Jul to 31 Jul": 0
+    }
+  },
+  "Total tests": {
+    "Tested positive": {
+      "5 Jul to 10 Jul": 4430,
+      "12 Jul to 17 Jul": 4959,
+      "19 Jul to 24 Jul": 5288,
+      "26 Jul to 31 Jul": 4946
+    },
+    "Tested negative (no COVID-19)": {
+      "5 Jul to 10 Jul": 18651,
+      "12 Jul to 17 Jul": 18165,
+      "19 Jul to 24 Jul": 18793,
+      "26 Jul to 31 Jul": 23390
+    },
+    "Inconclusive result": {
+      "5 Jul to 10 Jul": 110,
+      "12 Jul to 17 Jul": 77,
+      "19 Jul to 24 Jul": 85,
+      "26 Jul to 31 Jul": 105
+    },
+    "Total": {
+      "5 Jul to 10 Jul": 23191,
+      "12 Jul to 17 Jul": 23201,
+      "19 Jul to 24 Jul": 24166,
+      "26 Jul to 31 Jul": 28441
+    }
+  },
+  "All tests by district and in managed isolation and quarantine facilities from 22 January 2020 to 5 August 2022": {
+    "Managed isolation and quarantine facilities": {
+      "Total tests": 240730,
+      "Tested positive (%)": "1.59%",
+      "Test rate per 1000 people": "NA"
+    },
+    "Auckland": {
+      "Total tests": 1131118,
+      "Tested positive (%)": "2.36%",
+      "Test rate per 1000 people": 2298.6
+    },
+    "Bay of Plenty": {
+      "Total tests": 268347,
+      "Tested positive (%)": "2.30%",
+      "Test rate per 1000 people": 1035.5
+    },
+    "Canterbury/West Coast": {
+      "Total tests": 545178,
+      "Tested positive (%)": "2.63%",
+      "Test rate per 1000 people": 910.8
+    },
+    "Capital & Coast/Hutt": {
+      "Total tests": 455769,
+      "Tested positive (%)": "2.47%",
+      "Test rate per 1000 people": 968.3
+    },
+    "Counties Manukau": {
+      "Total tests": 1457942,
+      "Tested positive (%)": "2.98%",
+      "Test rate per 1000 people": 2460.9
+    },
+    "Hawkes Bay": {
+      "Total tests": 131130,
+      "Tested positive (%)": "1.78%",
+      "Test rate per 1000 people": 751.4
+    },
+    "Lakes": {
+      "Total tests": 123843,
+      "Tested positive (%)": "1.46%",
+      "Test rate per 1000 people": 1082.2
+    },
+    "MidCentral": {
+      "Total tests": 127598,
+      "Tested positive (%)": "2.06%",
+      "Test rate per 1000 people": 701.9
+    },
+    "Nelson Marlborough": {
+      "Total tests": 125677,
+      "Tested positive (%)": "1.94%",
+      "Test rate per 1000 people": 797.8
+    },
+    "Northland": {
+      "Total tests": 240310,
+      "Tested positive (%)": "1.22%",
+      "Test rate per 1000 people": 1242.2
+    },
+    "South Canterbury": {
+      "Total tests": 35099,
+      "Tested positive (%)": "1.72%",
+      "Test rate per 1000 people": 573.3
+    },
+    "Southern": {
+      "Total tests": 287876,
+      "Tested positive (%)": "3.62%",
+      "Test rate per 1000 people": 858.7
+    },
+    "Tairawhiti": {
+      "Total tests": 32164,
+      "Tested positive (%)": "1.78%",
+      "Test rate per 1000 people": 625.3
+    },
+    "Taranaki": {
+      "Total tests": 117566,
+      "Tested positive (%)": "2.54%",
+      "Test rate per 1000 people": 955.2
+    },
+    "Waikato": {
+      "Total tests": 600015,
+      "Tested positive (%)": "2.35%",
+      "Test rate per 1000 people": 1394.4
+    },
+    "Wairarapa": {
+      "Total tests": 33695,
+      "Tested positive (%)": "2.12%",
+      "Test rate per 1000 people": 693.1
+    },
+    "Waitemata": {
+      "Total tests": 1238681,
+      "Tested positive (%)": "1.98%",
+      "Test rate per 1000 people": 1968.8
+    },
+    "Whanganui": {
+      "Total tests": 34764,
+      "Tested positive (%)": "2.06%",
+      "Test rate per 1000 people": 509.4
+    },
+    "Unknown": {
+      "Total tests": 178528,
+      "Tested positive (%)": "1.25%",
+      "Test rate per 1000 people": "NA"
+    },
+    "Total": {
+      "Total tests": 7406030,
+      "Tested positive (%)": "2.36%",
+      "Test rate per 1000 people": 1481.1
+    }
+  },
+  "Tests by ethnicity from 22 January 2020 to 5 August 2022": {
+    "Māori": {
+      "Total test": 1073930,
+      "Tested positive (%)": "2.58%",
+      "Test rate per 1000 people": 1400.8
+    },
+    "Pacific Peoples": {
+      "Total test": 877057,
+      "Tested positive (%)": "4.75%",
+      "Test rate per 1000 people": 2384
+    },
+    "Asian": {
+      "Total test": 1217989,
+      "Tested positive (%)": "2.25%",
+      "Test rate per 1000 people": 1657.8
+    },
+    "European or Other": {
+      "Total test": 3898939,
+      "Tested positive (%)": "1.89%",
+      "Test rate per 1000 people": 1254.3
+    },
+    "Unknown": {
+      "Total test": 338115,
+      "Tested positive (%)": "1.22%",
+      "Test rate per 1000 people": "NA"
+    },
+    "Total": {
+      "Total test": 7406030,
+      "Tested positive (%)": "2.36%",
+      "Test rate per 1000 people": 1481.1
+    }
+  },
+  "Testing rates per 1000 people by location and ethnicity from 22 January 2020 to 5 August 2022": {
+    "Auckland": {
+      "Māori": 2712.2,
+      "Pacific peoples": 2592.4,
+      "Asian": 1970.8,
+      "European/Other": 2198.8
+    },
+    "Bay of Plenty": {
+      "Māori": 1049.2,
+      "Pacific peoples": 1997.7,
+      "Asian": 1280.9,
+      "European/Other": 973.4
+    },
+    "Canterbury/West Coast": {
+      "Māori": 914.8,
+      "Pacific peoples": 1069.6,
+      "Asian": 990.9,
+      "European/Other": 861.2
+    },
+    "Capital & Coast/Hutt": {
+      "Māori": 940.9,
+      "Pacific peoples": 1080.8,
+      "Asian": 888.9,
+      "European/Other": 958.1
+    },
+    "Counties Manukau": {
+      "Māori": 2673.3,
+      "Pacific peoples": 2990.5,
+      "Asian": 2063.9,
+      "European/Other": 2245.4
+    },
+    "Hawkes Bay": {
+      "Māori": 674.8,
+      "Pacific peoples": 1610.8,
+      "Asian": 907.4,
+      "European/Other": 695.5
+    },
+    "Lakes": {
+      "Māori": 1156.7,
+      "Pacific peoples": 1378.9,
+      "Asian": 1566.5,
+      "European/Other": 951.5
+    },
+    "MidCentral": {
+      "Māori": 753.8,
+      "Pacific peoples": 912.9,
+      "Asian": 688.6,
+      "European/Other": 664.7
+    },
+    "Nelson Marlborough": {
+      "Māori": 809.1,
+      "Pacific peoples": 2314.3,
+      "Asian": 951.5,
+      "European/Other": 733.3
+    },
+    "Northland": {
+      "Māori": 1238.8,
+      "Pacific peoples": 1486.3,
+      "Asian": 1251.2,
+      "European/Other": 1217.7
+    },
+    "South Canterbury": {
+      "Māori": 640.1,
+      "Pacific peoples": 1006.7,
+      "Asian": 753,
+      "European/Other": 531.3
+    },
+    "Southern": {
+      "Māori": 846.5,
+      "Pacific peoples": 1210.7,
+      "Asian": 977.1,
+      "European/Other": 825.4
+    },
+    "Tairawhiti": {
+      "Māori": 616.7,
+      "Pacific peoples": 960.6,
+      "Asian": 946.3,
+      "European/Other": 573.7
+    },
+    "Taranaki": {
+      "Māori": 996,
+      "Pacific peoples": 1163.2,
+      "Asian": 1287.5,
+      "European/Other": 904
+    },
+    "Waikato": {
+      "Māori": 1539.5,
+      "Pacific peoples": 1768.2,
+      "Asian": 1557,
+      "European/Other": 1292.7
+    },
+    "Wairarapa": {
+      "Māori": 739.4,
+      "Pacific peoples": 950.2,
+      "Asian": 828.8,
+      "European/Other": 659.3
+    },
+    "Waitemata": {
+      "Māori": 2348.7,
+      "Pacific peoples": 2499,
+      "Asian": 1593.5,
+      "European/Other": 1978.3
+    },
+    "Whanganui": {
+      "Māori": 490.5,
+      "Pacific peoples": 528,
+      "Asian": 606.6,
+      "European/Other": 500.3
+    }
+  },
+  "Percentage of tests returning a positive result by district and ethnicity from 22 January 2020 to 5 August 2022": {
+    "Auckland": {
+      "Māori": "2.86%",
+      "Pacific peoples": "4.87%",
+      "Asian": "2.06%",
+      "European/Other": "1.85%"
+    },
+    "Bay of Plenty": {
+      "Māori": "2.52%",
+      "Pacific peoples": "4.41%",
+      "Asian": "3.13%",
+      "European/Other": "2.00%"
+    },
+    "Canterbury/West Coast": {
+      "Māori": "2.88%",
+      "Pacific peoples": "5.25%",
+      "Asian": "2.29%",
+      "European/Other": "2.61%"
+    },
+    "Capital & Coast/Hutt": {
+      "Māori": "2.57%",
+      "Pacific peoples": "4.67%",
+      "Asian": "2.33%",
+      "European/Other": "2.21%"
+    },
+    "Counties Manukau": {
+      "Māori": "2.99%",
+      "Pacific peoples": "5.07%",
+      "Asian": "2.23%",
+      "European/Other": "1.42%"
+    },
+    "Hawkes Bay": {
+      "Māori": "1.71%",
+      "Pacific peoples": "2.57%",
+      "Asian": "2.78%",
+      "European/Other": "1.63%"
+    },
+    "Lakes": {
+      "Māori": "1.66%",
+      "Pacific peoples": "2.42%",
+      "Asian": "1.27%",
+      "European/Other": "1.28%"
+    },
+    "MidCentral": {
+      "Māori": "1.96%",
+      "Pacific peoples": "5.10%",
+      "Asian": "2.06%",
+      "European/Other": "1.93%"
+    },
+    "Nelson Marlborough": {
+      "Māori": "2.11%",
+      "Pacific peoples": "4.38%",
+      "Asian": "4.41%",
+      "European/Other": "1.61%"
+    },
+    "Northland": {
+      "Māori": "1.56%",
+      "Pacific peoples": "1.97%",
+      "Asian": "1.12%",
+      "European/Other": "0.98%"
+    },
+    "South Canterbury": {
+      "Māori": "1.44%",
+      "Pacific peoples": "2.73%",
+      "Asian": "1.83%",
+      "European/Other": "1.71%"
+    },
+    "Southern": {
+      "Māori": "3.24%",
+      "Pacific peoples": "4.85%",
+      "Asian": "4.15%",
+      "European/Other": "3.57%"
+    },
+    "Tairawhiti": {
+      "Māori": "1.60%",
+      "Pacific peoples": "4.89%",
+      "Asian": "0.98%",
+      "European/Other": "1.87%"
+    },
+    "Taranaki": {
+      "Māori": "3.06%",
+      "Pacific peoples": "3.91%",
+      "Asian": "2.69%",
+      "European/Other": "2.38%"
+    },
+    "Waikato": {
+      "Māori": "2.97%",
+      "Pacific peoples": "4.91%",
+      "Asian": "3.29%",
+      "European/Other": "1.76%"
+    },
+    "Wairarapa": {
+      "Māori": "2.30%",
+      "Pacific peoples": "3.85%",
+      "Asian": "2.60%",
+      "European/Other": "1.99%"
+    },
+    "Waitemata": {
+      "Māori": "2.60%",
+      "Pacific peoples": "4.12%",
+      "Asian": "2.00%",
+      "European/Other": "1.52%"
+    },
+    "Whanganui": {
+      "Māori": "2.69%",
+      "Pacific peoples": "4.55%",
+      "Asian": "1.38%",
+      "European/Other": "1.78%"
+    }
+  },
+  "Tests by age group from 22 January 2020 to 5 August 2022": {
+    "0 to 9": {
+      "Total people tested": 453312,
+      "Tested positive (%)": "3.36%",
+      "Test rate per 1000 people": 694
+    },
+    "10 to 19": {
+      "Total people tested": 639311,
+      "Tested positive (%)": "3.67%",
+      "Test rate per 1000 people": 998
+    },
+    "20 to 29": {
+      "Total people tested": 1421783,
+      "Tested positive (%)": "2.44%",
+      "Test rate per 1000 people": 2108.8
+    },
+    "30 to 39": {
+      "Total people tested": 1439946,
+      "Tested positive (%)": "2.09%",
+      "Test rate per 1000 people": 2089.6
+    },
+    "40 to 49": {
+      "Total people tested": 1112093,
+      "Tested positive (%)": "1.92%",
+      "Test rate per 1000 people": 1772.5
+    },
+    "50 to 59": {
+      "Total people tested": 1090672,
+      "Tested positive (%)": "1.75%",
+      "Test rate per 1000 people": 1704.8
+    },
+    "60 to 69": {
+      "Total people tested": 751999,
+      "Tested positive (%)": "1.83%",
+      "Test rate per 1000 people": 1406.3
+    },
+    "70 to 79": {
+      "Total people tested": 323518,
+      "Tested positive (%)": "2.66%",
+      "Test rate per 1000 people": 903.4
+    },
+    "80+": {
+      "Total people tested": 171869,
+      "Tested positive (%)": "4.77%",
+      "Test rate per 1000 people": 937.5
+    },
+    "Unknown": {
+      "Total people tested": 1527,
+      "Tested positive (%)": "11.07%",
+      "Test rate per 1000 people": "NA"
+    },
+    "Total": {
+      "Total people tested": 7406030,
+      "Tested positive (%)": "2.36%",
+      "Test rate per 1000 people": 1481.1
+    }
+  },
+  "Tests by sex from 22 January 2020 to 5 August 2022": {
+    "Female": {
+      "Total people tested": 3639125,
+      "Tested positive (%)": "2.44%",
+      "Test rate per 1000 people": 1427.1
+    },
+    "Male": {
+      "Total people tested": 3585914,
+      "Tested positive (%)": "2.34%",
+      "Test rate per 1000 people": 1464.5
+    },
+    "Unknown": {
+      "Total people tested": 180991,
+      "Tested positive (%)": "1.19%",
+      "Test rate per 1000 people": "NA"
+    },
+    "Total": {
+      "Total people tested": 7406030,
+      "Tested positive (%)": "2.36%",
+      "Test rate per 1000 people": 1481.1
+    }
+  }
+}
