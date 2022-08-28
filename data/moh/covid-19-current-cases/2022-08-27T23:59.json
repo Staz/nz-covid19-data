@@ -1,0 +1,274 @@
+{
+  "Summary": {
+    "In the last 24 hours": {
+      "New cases reported": 1394,
+      "Reinfections": 108,
+      "Reinfections (< 90 days)": 31
+    },
+    "Total since first New Zealand case": {
+      "Cases reported": 1734157,
+      "Reinfections": 32220,
+      "Reinfections (< 90 days)": 14211
+    },
+    "Active cases in past 7 days": {
+      "At the border": 947,
+      "In the community": 17914,
+      "Total": 18861
+    }
+  },
+  "All case outcomes since first New Zealand case": {
+    "Active": {
+      "Change in last 24 hours": -943,
+      "Total": 18861
+    },
+    "Recovered": {
+      "Change in last 24 hours": 2335,
+      "Total": 1713427
+    },
+    "Deceased": {
+      "Change in last 24 hours": 0,
+      "Total": 1869
+    }
+  },
+  "Deaths with COVID-19": {
+    "COVID as underlying": {
+      "Died within 28 days of positive test": 1173,
+      "Died more than 28 days after positive test": 27,
+      "Total": 1200,
+      "Change in last 24 hours": 0
+    },
+    "COVID as contributory": {
+      "Died within 28 days of positive test": 647,
+      "Died more than 28 days after positive test": 22,
+      "Total": 669,
+      "Change in last 24 hours": 0
+    },
+    "COVID-attributed total": {
+      "Died within 28 days of positive test": 1820,
+      "Died more than 28 days after positive test": 49,
+      "Total": 1869,
+      "Change in last 24 hours": 0
+    },
+    "Not COVID": {
+      "Died within 28 days of positive test": 594,
+      "Died more than 28 days after positive test": 0,
+      "Total": 594,
+      "Change in last 24 hours": 0
+    },
+    "Not available": {
+      "Died within 28 days of positive test": 294,
+      "Died more than 28 days after positive test": 21,
+      "Total": 315,
+      "Change in last 24 hours": 10
+    },
+    "Total": {
+      "Died within 28 days of positive test": 2708,
+      "Died more than 28 days after positive test": 70,
+      "Total": 2778,
+      "Change in last 24 hours": 10
+    }
+  },
+  "Number of active cases": {
+    "Confirmed": {
+      "Change in last 24 hours": 1355,
+      "Total at present": 18239,
+      "Total since first NZ case": 1718231
+    },
+    "Probable": {
+      "Change in last 24 hours": 37,
+      "Total at present": 622,
+      "Total since first NZ case": 15926
+    },
+    "Total": {
+      "Change in last 24 hours": 1392,
+      "Total at present": 18861,
+      "Total since first NZ case": 1734157
+    }
+  },
+  "Total cases by location": [
+    {
+      "Location": "Auckland",
+      "Active": 1834,
+      "Recovered": 161371,
+      "Deceased": 120,
+      "Total": 163325,
+      "New cases in last 24 hours": 129
+    },
+    {
+      "Location": "Bay of Plenty",
+      "Active": 726,
+      "Recovered": 78987,
+      "Deceased": 97,
+      "Total": 79810,
+      "New cases in last 24 hours": 41
+    },
+    {
+      "Location": "Canterbury",
+      "Active": 2094,
+      "Recovered": 226520,
+      "Deceased": 252,
+      "Total": 228866,
+      "New cases in last 24 hours": 154
+    },
+    {
+      "Location": "Capital and Coast",
+      "Active": 945,
+      "Recovered": 117783,
+      "Deceased": 88,
+      "Total": 118816,
+      "New cases in last 24 hours": 78
+    },
+    {
+      "Location": "Counties Manukau",
+      "Active": 2314,
+      "Recovered": 197138,
+      "Deceased": 148,
+      "Total": 199600,
+      "New cases in last 24 hours": 150
+    },
+    {
+      "Location": "Hawke's Bay",
+      "Active": 437,
+      "Recovered": 60174,
+      "Deceased": 89,
+      "Total": 60700,
+      "New cases in last 24 hours": 37
+    },
+    {
+      "Location": "Hutt Valley",
+      "Active": 509,
+      "Recovered": 58287,
+      "Deceased": 59,
+      "Total": 58855,
+      "New cases in last 24 hours": 41
+    },
+    {
+      "Location": "Lakes",
+      "Active": 344,
+      "Recovered": 35229,
+      "Deceased": 60,
+      "Total": 35633,
+      "New cases in last 24 hours": 21
+    },
+    {
+      "Location": "Mid Central",
+      "Active": 660,
+      "Recovered": 60724,
+      "Deceased": 83,
+      "Total": 61467,
+      "New cases in last 24 hours": 52
+    },
+    {
+      "Location": "Nelson Marlborough",
+      "Active": 522,
+      "Recovered": 50792,
+      "Deceased": 61,
+      "Total": 51375,
+      "New cases in last 24 hours": 28
+    },
+    {
+      "Location": "Northland",
+      "Active": 549,
+      "Recovered": 51196,
+      "Deceased": 58,
+      "Total": 51803,
+      "New cases in last 24 hours": 37
+    },
+    {
+      "Location": "South Canterbury",
+      "Active": 189,
+      "Recovered": 22723,
+      "Deceased": 26,
+      "Total": 22938,
+      "New cases in last 24 hours": 18
+    },
+    {
+      "Location": "Southern",
+      "Active": 1084,
+      "Recovered": 127174,
+      "Deceased": 158,
+      "Total": 128416,
+      "New cases in last 24 hours": 69
+    },
+    {
+      "Location": "Tairāwhiti",
+      "Active": 211,
+      "Recovered": 17070,
+      "Deceased": 21,
+      "Total": 17302,
+      "New cases in last 24 hours": 17
+    },
+    {
+      "Location": "Taranaki",
+      "Active": 527,
+      "Recovered": 44103,
+      "Deceased": 69,
+      "Total": 44699,
+      "New cases in last 24 hours": 37
+    },
+    {
+      "Location": "Unknown",
+      "Active": 17,
+      "Recovered": 820,
+      "Deceased": 2,
+      "Total": 839,
+      "New cases in last 24 hours": "NA"
+    },
+    {
+      "Location": "Waikato",
+      "Active": 1654,
+      "Recovered": 134835,
+      "Deceased": 185,
+      "Total": 136674,
+      "New cases in last 24 hours": 129
+    },
+    {
+      "Location": "Wairarapa",
+      "Active": 181,
+      "Recovered": 16531,
+      "Deceased": 39,
+      "Total": 16751,
+      "New cases in last 24 hours": 10
+    },
+    {
+      "Location": "Waitematā",
+      "Active": 2805,
+      "Recovered": 195144,
+      "Deceased": 203,
+      "Total": 198152,
+      "New cases in last 24 hours": 222
+    },
+    {
+      "Location": "West Coast",
+      "Active": 118,
+      "Recovered": 10105,
+      "Deceased": 9,
+      "Total": 10232,
+      "New cases in last 24 hours": 9
+    },
+    {
+      "Location": "Whanganui",
+      "Active": 194,
+      "Recovered": 22177,
+      "Deceased": 37,
+      "Total": 22408,
+      "New cases in last 24 hours": 25
+    },
+    {
+      "Location": "At the Border",
+      "Active": 947,
+      "Recovered": 24544,
+      "Deceased": 5,
+      "Total": 25496,
+      "New cases in last 24 hours": 90
+    },
+    {
+      "Location": "Total",
+      "Active": 18861,
+      "Recovered": 1713427,
+      "Deceased": 1869,
+      "Total": 1734157,
+      "New cases in last 24 hours": 1394
+    }
+  ]
+}
