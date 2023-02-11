@@ -24,10 +24,12 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-      # - name: Setup deno
-      #   uses: denoland/setup-deno@main
-      #   with:
-      #     deno-version: v1.x
+      - name: Setup deno
+        uses: denoland/setup-deno@main
+        with:
+          deno-version: v1.x
+      - name: Check out repo
+        uses: actions/checkout@v2
       - name: Fetch MOH COVID Case Counts data
         uses: githubocto/flat@v3
         with:
@@ -54,9 +56,6 @@ jobs:
           http_url: https://github.com/minhealthnz/nz-covid-data/blob/main/cases/weekly-hospitalisations-for-covid.csv?raw=true
           downloaded_filename: ./data/moh/weekly-hospitalisations-for-covid.csv
       # No longer need to scrape the MoH pages! <3
-      #
-      # - name: Check out repo
-      #   uses: actions/checkout@v2
       # - name: Fetch MOH current cases data page
       #   uses: githubocto/flat@v3
       #   with:
