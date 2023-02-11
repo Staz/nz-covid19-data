@@ -17,7 +17,7 @@ jobs:
         with:
           deno-version: v1.x
       - name: Check out repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Fetch JHU CSSE deaths data
         uses: githubocto/flat@v3
         with:
@@ -39,7 +39,7 @@ jobs:
         with:
           deno-version: v1.x
       - name: Checkout code
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
       - name: Tidy and combine data
         run: deno run -A --unstable ./postprocess/jhu-csse/tidy.ts
       - name: Commit & Push changes
