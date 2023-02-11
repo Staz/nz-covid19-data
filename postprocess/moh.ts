@@ -39,6 +39,7 @@ const OUTPUT_FILE_DATE_FORMAT = 'YYYY-MM-DD[T]HH:mm';
 const inputFile = Deno.args[0];
 const html = Deno.readTextFileSync(inputFile);
 
+// Get the link to the vaccinations data xlsx and download it
 if (inputFile.endsWith('covid-19-vaccine-data.html')) {
   /* Download latest vaccination data spreadsheet */
   const match = VACCINATION_DATA_URL_REGEX.exec(html);
@@ -51,20 +52,22 @@ if (inputFile.endsWith('covid-19-vaccine-data.html')) {
   }
 }
 
-const date = getDataDateFromMohPage(html, OUTPUT_FILE_DATE_FORMAT);
 
-if (!date) {
-  throw 'Unable to work out what date the data relates to: ' + inputFile;
-}
+// Commented out on 12 Feb 2023 as scraping the MoH pages is no longer necessary
+// const date = getDataDateFromMohPage(html, OUTPUT_FILE_DATE_FORMAT);
 
-const outputHtmlFilePath = `./${dirname(inputFile)}/${date}.html`;
-Deno.writeTextFileSync(outputHtmlFilePath, html);
+// if (!date) {
+//   throw 'Unable to work out what date the data relates to: ' + inputFile;
+// }
 
-scrapeTablesFromHtml(outputHtmlFilePath);
+// const outputHtmlFilePath = `./${dirname(inputFile)}/${date}.html`;
+// Deno.writeTextFileSync(outputHtmlFilePath, html);
 
-if (inputFile.endsWith('covid-19-case-demographics.html')) {
-  console.log('Generating CSVs for MoH case demographic data');
-  await generateCsvFiles();
-}
+// scrapeTablesFromHtml(outputHtmlFilePath);
+
+// if (inputFile.endsWith('covid-19-case-demographics.html')) {
+//   console.log('Generating CSVs for MoH case demographic data');
+//   await generateCsvFiles();
+// }
 
 // Deno.remove(inputFile);

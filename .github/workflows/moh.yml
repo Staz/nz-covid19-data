@@ -55,6 +55,20 @@ jobs:
         with:
           http_url: https://github.com/minhealthnz/nz-covid-data/blob/main/cases/weekly-hospitalisations-for-covid.csv?raw=true
           downloaded_filename: ./data/moh/weekly-hospitalisations-for-covid.csv
+      
+      # Keeping this here to get the link to and download the vaccination data xlsx 
+      - name: Fetch MOH vaccine data page
+        uses: githubocto/flat@v3
+        with:
+          http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-vaccine-data
+          downloaded_filename: ./data/moh/covid-19-vaccine-data/covid-19-vaccine-data.html
+          postprocess: ./postprocess/moh.ts
+      
+      
+      
+      
+      
+      
       # No longer need to scrape the MoH pages! <3
       # - name: Fetch MOH current cases data page
       #   uses: githubocto/flat@v3
@@ -79,12 +93,6 @@ jobs:
       #   with:
       #     http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/testing-covid-19
       #     downloaded_filename: ./data/moh/testing-covid-19/testing-covid-19.html
-      #     postprocess: ./postprocess/moh.ts
-      # - name: Fetch MOH vaccine data page
-      #   uses: githubocto/flat@v3
-      #   with:
-      #     http_url: https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-vaccine-data
-      #     downloaded_filename: ./data/moh/covid-19-vaccine-data/covid-19-vaccine-data.html
       #     postprocess: ./postprocess/moh.ts
       # - name: Fetch MOH vaccine data
       #   uses: githubocto/flat@v3
