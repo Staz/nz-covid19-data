@@ -1,6 +1,11 @@
 {
   "version": "2",
   "remote": {
+    "https://cdn.jsdelivr.net/npm/acorn@8.8.2/+esm": "ac7eb11f169ebb70d7852e5ef2686a3f601dcaa45eff68ada33ec2d6dcb154b7",
+    "https://cdn.jsdelivr.net/npm/apache-arrow@9.0.0/+esm": "12fccf8fe305c143181569e4a9843fa41cd057d4d0ecfe10a758f386944fc3e0",
+    "https://cdn.jsdelivr.net/npm/arquero/+esm": "edb1a2c19364189f21d494422abaf9d3e605110f3d2d14ff79bfa2325d2c73be",
+    "https://cdn.jsdelivr.net/npm/flatbuffers@2.0.4/+esm": "d40bd3f7b87743dc39815cf33a4bbd7f26568a0c54de39535994b59fb9ef3fb3",
+    "https://cdn.jsdelivr.net/npm/tslib@2.5.0/+esm": "2e848cfb5a7b854020b24b926fff4abf71339bf828358f3927937722b9803361",
     "https://cdn.skypack.dev/-/dayjs@v1.10.7-Fs0gULP3uteC7O0DDOOk/dist=es2019,mode=imports/optimized/dayjs.js": "7f0fb2ce3a41bdc182cad09db2a5f9ea04ea39bc6d42ad422d8e06a12328fee7",
     "https://cdn.skypack.dev/-/dayjs@v1.10.7-Fs0gULP3uteC7O0DDOOk/dist=es2019,mode=imports/unoptimized/plugin/customParseFormat.js": "32de2c275c6e159bb53b73b8f1b47747bb8d8947c394e14f216a0ca6e7fbc860",
     "https://cdn.skypack.dev/-/dayjs@v1.10.7-Fs0gULP3uteC7O0DDOOk/dist=es2019,mode=types/index.d.ts": "3fbd18a93e08b35fc9083d4a3c121c51433dda45312b2f27940f07f2bf35a99c",
