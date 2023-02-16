@@ -84,3 +84,7 @@ Stats NZ
 - Ideally time series data from the MoH, but I understand they're very busy!
 - Failing that, complete snapshots (HTML) for MoH stats pages. Send me a message if you can help out with this!
 - Let me know what else you'd like to see here!
+
+### Tasks 
+
+ - Update `deno.lock` with `deno cache --lock deno.lock --lock-write scripts/deps.ts`
