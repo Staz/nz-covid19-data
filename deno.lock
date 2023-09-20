@@ -1,5 +1,8 @@
 {
-  "version": "2",
+  "version": "3",
+  "redirects": {
+    "https://deno.land/x/url_join/mod.ts": "https://deno.land/x/url_join@1.0.0/mod.ts"
+  },
   "remote": {
     "https://cdn.deno.land/mimetypes/versions/v1.0.0/raw/mod.ts": "abd1ea614b32cfa7fd50b46f6e070617696664698b8a34935dc807f3035ad408",
     "https://cdn.deno.land/mimetypes/versions/v1.0.0/raw/src/mime.ts": "7cd7590eae6127dc1abfe710900fc749e94d5c715ffe8a148e59fe20ee21a9a5",
